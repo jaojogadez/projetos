@@ -1,0 +1,80 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+}
+
+.about .about__left{
+    max-width: 40rem;
+    flex: 1;
+}
+
+.about .about__left p{
+    margin: 1rem 0 2rem;
+}
+
+.about .about__left ul{
+    margin-left: -1.2rem;
+}
+
+.about .about__left ul li{
+    display: inline-block;
+}
+
+.about .about__left ul li a{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.about__rigth{
+    flex: 1;
+    max-width: 66rem;
+}
+.about__rigth .btn{
+    margin-top: 7rem;
+    padding: 0;
+}
+.about__rigth .btn a{
+    display: inline-block;
+    background-color: #25d366; /* Cor de fundo do WhatsApp */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    padding: 15px 20px; /* Espaçamento interno */
+    border-radius: 30px; /* Borda arredondada */
+    font-size: 16px; /* Tamanho da fonte */
+    border: none; /* Remove a borda */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    
+}
+.about__rigth .btn a .flex-items{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.about__rigth .btn a img{
+    width: 50px;
+    height: 50px;
+}
+.about__rigth .btn a:hover{
+    background-color: #128c7e;
+    transition: 1s;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .about__left{
+        max-width: 66rem;
+        text-align: center;
+    }
+
+    .about .about__rigth{
+        text-align: center;
+    }
+}

@@ -1,0 +1,69 @@
+.projects{
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects__content{
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects ul li.projects__reversed-list{
+    flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+
+.projects ul li .image img{
+    width: 100%;
+    max-width: 47rem;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 10px 25px 10px rgb(255, 240, 242);
+}
+.projects ul li .image img:hover{
+    width: 680px;
+    transition: 1s;
+    max-width: 50rem;
+}
+.projects ul li .projects__info{
+    max-width: 47rem;
+    margin-right: 15rem;
+}
+.projects ul li .projects__inf{
+    max-width: 47rem;
+    margin-left: 10rem;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .projects ul li .projects__info img, .projects ul li .projects__inf img {
+        width: 0px;
+    }
+    .projects ul li{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .projects ul li.projects__reversed-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects ul li .image img:hover{
+        width: 567px;
+        max-width: 47rem;
+    }
+    
+}
