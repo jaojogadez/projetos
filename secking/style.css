@@ -30,13 +30,17 @@ nav ul li{
     display: inline-block;
     margin-right: 32px;
 }
-nav ul li a{
+nav a{
     text-decoration: none;
-    color: #fff;
+    color: white;
+    padding: 10px 20px;
+    
 }
-nav ul li a:hover{
-    color: skyblue;
-    transition: .5s;
+nav a:hover{
+    background-color: #fff;
+    color: rgb(32, 80, 99);
+    
+    transition-duration: .8s;
 }
 
 /* Configuração do Header */
@@ -58,15 +62,16 @@ header a{
     background-color: #fff;
     border: 1px solid black;
     border-radius: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 7rem;
     font-size: 1.1em;
     font-weight: normal;
+    position: absolute;
 }
 header a:hover{
     background-color: skyblue;
     border: none;
     color: #fff;
-    transition-duration: 1.5s;
+    transition-duration: .8s;
 }
 header h1{
     background-color: #555;
@@ -74,6 +79,8 @@ header h1{
     text-shadow: 1px 1px 10px black;
     letter-spacing: 7px;
     font-size: 3em;
+    position: absolute;
+    margin-top: 32px;
 }
 
 /* Configuração da Section Icons */
