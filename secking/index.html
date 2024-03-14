@@ -47,7 +47,7 @@
                 <small>Constante Crescimento</small>
         </div>
     </section>
-    <main>
+    <main id="quemsomos">
         <img 
             src="assets/teste-one.jpg" 
             alt="teste"
@@ -96,40 +96,75 @@
             </aside>
         </section>
     </main>
-    <article>
-        <div id="title">
-            <h1>Nossos Serviços</h1>
-        </div>
-        <section>
+    <div id="title">
+        <h1>Nossos serviços</h1>
+    </div>
+    <article id="servicos">
+        <div id="box1" class="boxes">
             <div class="circle">
                 <h1>1</h1>
             </div>
-            <h2>Pentest</h2>
-            <p>
-                O objetivo de um pentest é simular um ataque hacker a fim de encontrar falhas e vulnerabilidades no sistema para que possam ser corrigidas.
-            </p>
-            <a href="#">Agendar</a>
-        </section>
-        <section>
+            <section id="pentest">
+            
+                <h2>Pentest</h2>
+                <p>
+                    O objetivo de um pentest é simular um ataque hacker a fim de encontrar falhas e vulnerabilidades no sistema para que possam ser corrigidas.
+                </p>
+                <a href="#">Agendar</a>
+            </section>
+        </div>
+        <div id="box2" class="boxes">
             <div class="circle">
                 <h1>2</h1>
             </div>
-            <h2>Gerenciamento</h2>
-            <p>
-                Monitoramento contínuo de medidas de segurança em uma organização. O objetivo é garantir que os sistemas e informações estejam protegidos contra ameaças e riscos de segurança.
-            </p>
-            <a href="#">Agendar</a>
-        </section>
-        <section>
+            <section id="gerenciamento">
+            
+                <h2>Gerenciamento</h2>
+                <p>
+                    Monitoramento contínuo de medidas de segurança em uma organização. O objetivo é garantir que os sistemas e informações estejam protegidos contra ameaças e riscos de segurança.
+                </p>
+                <a href="#">Agendar</a>
+            </section>
+        </div>
+        <div id="box3" class="boxes">
             <div class="circle">
                 <h1>3</h1>
             </div>
-            <h2>Consultoria</h2>
-            <p>
-                O objetivo da consultoria é fornecer orientação especializada, avaliação de riscos, desenvolvimento de planos e recomendações de melhorias para a segurança do sistema do cliente atendido.
-            </p>
-            <a href="#">Agendar</a>
-        </section>
+            <section id="consultoria">
+            
+                <h2>Consultoria</h2>
+                <p>
+                    O objetivo da consultoria é fornecer orientação especializada, avaliação de riscos, desenvolvimento de planos e recomendações de melhorias para a segurança do sistema do cliente atendido.
+                </p>
+                <a href="#">Agendar</a>
+            </section>
+        </div>
     </article>
+
+
+    <!-- Script para o efeito de rolagem -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("nav ul li a");
+
+    links.forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault(); // Impede o comportamento padrão de navegação
+
+            const targetId = this.getAttribute("href"); // Obtém o ID da seção alvo
+            const targetSection = document.querySelector(targetId); // Seleciona a seção alvo
+
+            if (targetSection) {
+                // Faz a rolagem suave até a seção alvo
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});
+    </script>
 </body>
 </html>
