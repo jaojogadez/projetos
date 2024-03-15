@@ -166,5 +166,33 @@
     });
 });
     </script>
+    <script>
+        
+document.addEventListener("DOMContentLoaded", function() {
+        const header = document.querySelector("header");
+        const images = ["assets/slide-one.jpg", "assets/slide-two.jpg"];
+        let currentIndex = 0;
+
+        function changeBackgroundAndContent() {
+            // Alterna o índice da imagem
+            currentIndex = (currentIndex + 1) % images.length;
+            // Atualiza o plano de fundo do header
+            header.style.backgroundImage = `url('${images[currentIndex]}')`;
+            // Atualiza o conteúdo do header
+            if (currentIndex === 0) {
+                header.querySelector("a").setAttribute("href", "#home");
+                header.querySelector("a").textContent = "FALE CONOSCO";
+                header.querySelector("h1").textContent = "Informação é Poder";
+            } else if (currentIndex === 1) {
+                header.querySelector("a").setAttribute("href", "#servicos");
+                header.querySelector("a").textContent = "NOSSOS SERVIÇOS";
+                header.querySelector("h1").textContent = "Proteção em Primeiro Lugar";
+            }
+        }
+
+        // Chama a função para alterar a imagem e o conteúdo do header a cada 5 segundos
+        setInterval(changeBackgroundAndContent, 5000);
+    });
+    </script>
 </body>
 </html>

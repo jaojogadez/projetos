@@ -54,6 +54,10 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: background-image 1.5s;
+    background-position: left center;
+
+    
 }
 header a{
     text-decoration: none;
