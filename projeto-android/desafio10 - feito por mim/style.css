@@ -1,0 +1,251 @@
+/* General Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #84E1AD;
+}
+
+/* Header Style */
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(#3CD983,#195C38);
+    color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.head_title{
+    text-align: center;
+    padding: 30px 0 30px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.head_title h1{
+    padding-bottom:25px;
+    letter-spacing: -2px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.navbar ul li:hover{
+    padding: 5px;
+    background-color: #3CD983;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+/* Main Style */
+
+main{
+    width: 950px;
+    margin: auto;
+    background-color: #fff;
+    min-height: 100vh;
+    padding: 2rem 1.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Section Style */
+
+
+.history h1{
+    font: normal bolder 2em idroid;
+    color: #2A6746;
+    margin-bottom: 25px;
+}
+section p{
+    text-align: justify;
+    font: normal normal 1em arial;
+    line-height: 30px;
+    word-spacing: 5px;
+    text-indent: 3ch;
+    margin-bottom: 15px;
+}
+span, a{
+    text-decoration: none;
+    color: #2A6746;
+    font-weight: bolder;
+}
+
+h2{
+    font: normal bold 1.5em idroid;
+    color:#2A6746 ;
+    background-image: linear-gradient(to right, #C2E7D2, white) ;
+    padding: 1px 1px 1px 10px;
+    margin-bottom: 15px;
+}
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.dan-droids-mobile{
+    display: none;
+}
+.img-irina, .dan-droids{
+    width: 100%;
+}
+.img-irina-mobile{
+    display: none;
+}
+
+/* Video Section Style */
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #195C38;
+    width: 950px;
+    margin: auto;
+    padding: 30px;
+}
+
+.learn_more{
+    width: 950px;
+    margin: auto;
+    background-color: #fff;
+    padding: 2rem 1.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.box_content{
+    background-color: #C5EBD6;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.123);
+}
+
+ul{
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    gap: 10rem;
+}
+.title{
+    background-color: #2FA866;
+    color: #fff;
+    font: normal bold 1em arial;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.116);
+}
+.end_text{
+    margin: 20px 0;
+}
+.end_text p{
+    margin: 0;
+}
+
+/* Footer Style */
+
+footer{
+    background-color: #195C38;
+    color: white;
+    width: 100%;
+    font: normal normal 0.7em arial;
+    padding: 5px;
+    text-align: center;
+}
+footer span{
+    color: #fff;
+    font-weight: bolder;
+}
+
+
+/* Estilos para dispositivos móveis como Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    *{
+        overflow-x: hidden;
+    }
+    header{
+        text-align: center;
+    }
+    main, .learn_more{
+        width: 680px;
+    }
+    iframe{
+        width:  450px ;
+        height: 250px;
+    }
+    .video{
+        width:680px ;
+    }
+}
+
+
+/* Estilos para dispositivos móveis como Smartphones */
+@media only screen and (max-width: 767px) {
+    *{
+        overflow-x: hidden;
+    }
+    
+    header{
+        text-align: center;
+    }
+    main, .learn_more{
+        width: 550px;
+    }
+    .dan-droids{
+        display: none;
+    }
+    .dan-droids-mobile{
+        display: block;
+        width: 380px;
+    }
+    .img-irina{
+        display: none;
+    }
+    .img-irina-mobile{
+        display: block;
+        width: 250px;
+    }
+
+    iframe{
+        width:  450px ;
+        height: 250px;
+    }
+    .video{
+        width:550px ;
+    }
+    .list{
+        gap: 5rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    main, .learn_more{
+        width: 450px;
+    }
+    .video{
+        width:450px ;
+    }
+    .list{
+        gap: 1rem;
+    }
+}
