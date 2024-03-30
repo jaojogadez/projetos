@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/* General Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fontetitulo: 'Passion One';
+    --fontepoema: 'Sriracha';
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* Header Style */
+
+header{
+    background-color: black;
+    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header h1{
+    font: normal 600 7.5em var(--fontetitulo);
+    color: white;
+}
+header p{
+    font: normal 500 1.1em Arial;
+    color: white;
+
+}
+header p a{
+    font: normal normal 1.1em var(--fontetitulo);
+    color: white;
+    text-decoration: none;
+}
+header p a::after{
+    text-decoration: underline;
+    color: rgb(230, 230, 230);
+}
+
+
+
+main p{
+    font-family: var(--fontepoema);
+}
