@@ -9,7 +9,7 @@
 
 <a href="https://jaojogadez.github.io/projetos/projeto-android/desafio10%20-%20feito%20por%20mim/">Projeto Android - Desenvolvido por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-android/projeto-android/">Projeto Android - Desenvolvido nas aulas do Curso em Vídeo</a>
+<a href="https://jaojogadez.github.io/projetos/projeto-android/projeto-android/">Projeto Android - Desenvolvido nas aulas do Curso em Vídeo </a>
 
 
 
