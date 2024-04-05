@@ -41,13 +41,99 @@ header p a{
     color: white;
     text-decoration: none;
 }
-header p a::after{
+header p a:hover{
     text-decoration: underline;
-    color: rgb(230, 230, 230);
 }
-
-
 
 main p{
     font-family: var(--fontepoema);
+}
+
+/* poema style */
+
+.poema{
+    padding: 20px 25px;
+    font-size: 3em;
+    background-color: #fff;
+}
+.poema p{
+    margin: 70px 0px 100px;
+}
+
+/* efeito parallax */
+
+.imagem-de-fundo-one{
+    padding: 20px 25px;
+    font-size: 3em;
+    background-image: url('imagens/background001.jpg');
+    color: #fff;
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagem-de-fundo-one p{
+    margin: 70px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 15px;
+    display: inline-block;
+}
+.imagem-de-fundo-two{
+    padding: 20px 25px;
+    font-size: 3em;
+    background-image: url('imagens/background002.jpg');
+    color: #fff;
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagem-de-fundo-two p{
+    margin: 70px 0px 100px;
+    background-color: rgba(0, 0, 0, 0.253);
+    padding: 15px;
+    display: inline-block;
+}
+
+
+/* footer style */
+
+footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 532px) and (max-width: 800px) {
+    header h1{
+        font: normal 600 5em var(--fontetitulo);
+    }
+    .poema, .imagem-de-fundo-one, .imagem-de-fundo-two{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 532px) {
+
+    header h1{
+        font: normal 600 3.5em var(--fontetitulo);
+    }
+
+    .poema,.imagem-de-fundo-one, .imagem-de-fundo-two{
+        font-size: 1.7em;
+    }
+    footer{
+        font-size: .8em;
+    }
 }
