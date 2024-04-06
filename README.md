@@ -13,6 +13,8 @@
 
 <a href="https://jaojogadez.github.io/projetos/projeto-cordel/desafio12%20-%20feito%20por%20mim/" target="_blank">Projeto Cordel - Desenvolvido por mim</a>
 
+<a href="https://jaojogadez.github.io/projetos/projeto-cordel/desafio12%20-%20desenvolvido%20nas%20aulas%20do%20curso/" target="_blank">Projeto Cordel - Desenvolvido nas aulas do Curso em Vídeo</a>
+
 
 
 
