@@ -5,7 +5,7 @@
 
 <a href="https://jaojogadez.github.io/projetos/disk%20diarista%20e%20passe%20bem/Disk%20Diarista%20Page/" target="_blank">Disk Diarista e Passe Bem - Landing Page</a><br>
 
-<a href="https://jaojogadez.github.io/projetos/secking/index.html" target="_blank">Secking Si - Landing Page de uma empresa fictícia</a><br>
+<a href="https://jaojogadez.github.io/projetos/secking/index.html" target="_blank">Secking Si - Landing Page de uma empresa fictícia</a><br> -> (em andamento)
 
 <a href="https://jaojogadez.github.io/projetos/projeto-android/desafio10%20-%20feito%20por%20mim/" target="_blank">Projeto Android - Desenvolvido por mim</a>
 
