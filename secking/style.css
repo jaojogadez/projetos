@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
@@ -21,7 +22,7 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 180px;
+    height: 180px;     
 }
 nav ul{
     list-style: none;
@@ -44,19 +45,23 @@ nav a:hover{
 }
 
 /* Configuração do Header */
+header  .container{
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+}
 
 header{
-    background-image: url('assets/slide-one.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 97vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    transition: background-image 1.5s;
-    background-position: left center;
 }
+header img{
+    width: 100%;
+}
+
+
+
+
+/*
 header a{
     text-decoration: none;
     color: black;
@@ -84,6 +89,7 @@ header h1{
     position: absolute;
     margin-top: 32px;
 }
+*/
 
 /* Configuração da Section Icons */
 
