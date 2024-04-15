@@ -133,6 +133,7 @@ main section h2{
     font: normal bold 2.7em arial;
     letter-spacing: 4px;
     margin-bottom: 20px;
+    margin-top: 0;
     display: inline-block;
     position: relative;
 }
@@ -366,9 +367,10 @@ article section a{
     background-color: #0057E1;
     font-size: small;
     cursor: pointer;
+    transition: 1s ease;
 }
 article section a:hover{
-    transition-duration: .7s;
+    
     background-color: #fff;
     color: #0057E1;
     border: 1px solid #0057E1;
