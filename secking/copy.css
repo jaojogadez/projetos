@@ -3,20 +3,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 
 body{
     min-height: 98vh;
     font-family: Arial, Helvetica, sans-serif !important;
     line-height: none !important;
-    color: #000;
-    font-size: inherit;
-}
-h3{
-    margin: 0 ;
-    padding: 0;
 }
 
 /* Configuração da Navbar */
@@ -43,7 +35,6 @@ nav a{
     text-decoration: none !important;
     color: white;
     padding: 10px 20px;
-    font-size: 1.6em !important;
 }
 nav a:hover{
     background-color: #fff;
@@ -52,7 +43,7 @@ nav a:hover{
 }
 
 /* Configuração do Header */
-header  .containeer{
+header  .container{
     width: 100%;
     margin: 0 ;
     padding: 0;
@@ -115,8 +106,7 @@ section div img{
     height: 90px;
 }
 section div small{
-    font: normal bolder 1.1em arial;
-    color: #000;
+    font: normal bolder 0.7em arial;
 }
 
 /* Configuração do Main */
@@ -130,7 +120,7 @@ main section{
     width: 100%;
 }
 main section h2{
-    font: normal bold 2.7em arial;
+    font: normal bold 1.6em arial;
     letter-spacing: 4px;
     margin-bottom: 20px;
     display: inline-block;
@@ -149,7 +139,6 @@ main section h2:after{
 main section .p_especial{
     width: 338px;
     line-height: 23px;
-    font-size: 1.5em;
 }
 main section div{
     height: 10px;
@@ -190,34 +179,28 @@ main section div{
 
 #missao p, #visao p, #valores p{
     background-color: lightgray;
-    text-align: justify;
-    padding: 8px 10px 20px;
+    text-align: start;
+    padding: 8px 10px;
     border-radius: 0 0px 0 20px;
     font-weight: normal;
-    height: 110px;
-    font-size: 1.09em;
+    height: 100px;
+    font-size: 0.9em;
     letter-spacing: 0.5px;
-
 }
 
 .container{
-    width: 218px ;
-    padding: 0;
-}
-.container h3{
-    font-size: 1.8em;
+    width: 218px;
 }
 #missao span{
     display: flex;
     color: #fff;
-    background-color:rgb(111, 172, 196);;
+    background-color: rgb(111, 172, 196);
     font-weight: normal;
     letter-spacing: 2px;
     padding: 4px;
     border-radius: 0 10px 0 0;
     align-items: center;
-    gap: 8px;
-
+    gap: 5px;
 }
 span img{
     width: 30px;
@@ -251,18 +234,7 @@ span img{
 #title{
     text-align: center;
     margin: 160px 0 40px 0;
-    font-size: 5em;
-    font-weight: bold;
-}
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-    font-weight: 600;
-    line-height: 1.1;
-    color: inherit;
-}
-h1{
-    font-size: unset;
-    margin: 0;
+    font-size: 1.5em;
 }
 
 article{
@@ -279,16 +251,12 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
-}
-.circle h1{
-    font-size: 2em;
 }
 #box2 .circle{
-    margin-top: 79px;
+    margin-top: 25px;
 }
 #box3 .circle{
-    margin-top: 98px;
+    margin-top: 50px;
 }
 .boxes .circle{
     background-color: #f1f1f1;
@@ -323,30 +291,17 @@ article section {
     padding: 25px;
     font-family: Helvetica, sans-serif;
 }
-#circlepen{
-    margin-top: 58px;
-}
 #pentest{
-    height: 410px;
-    margin-top: 85px;
-}
-.caixa{
-    width: 300px;
-}
-.caixa h2{
-    font-size: 25px;
-    margin-top: 65px;
-}
-.caixa p{
-    font-size: 1.5em;
+    height: 350px;
+    margin-top: 25px;
 }
 #gerenciamento{
-    height: 430px;
-    margin-top: 106px;
+    height: 375px;
+    margin-top: 50px;
 }
 #consultoria{
-    height: 450px;
-    margin-top: 126px;
+    height: 400px;
+    margin-top: 75px;
 }
 article section h2{
     font-weight: normal;
@@ -360,7 +315,7 @@ article section p{
     margin-bottom: 55px;
 }
 article section a{
-    text-decoration: none !important;
+    text-decoration: none;
     color: #fff;
     padding: 10px 30px;
     background-color: #0057E1;
@@ -372,8 +327,4 @@ article section a:hover{
     background-color: #fff;
     color: #0057E1;
     border: 1px solid #0057E1;
-}
-
-#btn_agenda{
-    margin-bottom: 0px;
 }
