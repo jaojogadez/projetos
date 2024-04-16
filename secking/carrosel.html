@@ -22,17 +22,52 @@
         }
         img{
             width: 100%;
+            position: relative;
         }
         .container{
             width: 100%;
             margin: 0 ;
             padding: 0;
+            position: relative;
+        }
+        .slider_content{
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform:translateX(-50%);
+            text-align: center;
+        }
+        .slider_content a{
+            text-decoration: none;
+            color: black;
+            padding: 10px 85px;
+            background-color: #fff;
+            border: 1px solid black;
+            border-radius: 15px;
+            margin-bottom: 7rem;
+            font-size: 1.1em;
+            font-weight: bold;
+            transition: 1s ease;
+        }
+        .slider_content a:hover{
+            background-color: skyblue;
+            border: none;
+            color: #fff;
+        }
+        .slider_content h1{
+            background-color: #555;
+            color: #fff;
+            text-shadow: 1px 1px 10px black;
+            letter-spacing: 7px;
+            font-size: 4em;
+            display: inline-block;
+            margin-top: 32px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <h1>NAVBAR</h1>
+    
     </nav>
     
         <div class="container">
@@ -41,6 +76,10 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="assets/slide-one.jpg" alt="slid-one">
+                        <div class="slider_content">
+                            <a href="#contato">FALE CONOSCO</a>
+                            <h1>Informação é Poder</h1>
+                        </div>
                     </div>
                     <div class="item">
                         <img src="assets/slide-two.jpg" alt="slid-two">
