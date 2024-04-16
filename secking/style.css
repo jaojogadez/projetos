@@ -68,35 +68,51 @@ header img{
 
 
 
-/*
-header a{
+
+.slider_content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform:translateX(-50%);
+    text-align: center;
+}
+.slider_content a{
     text-decoration: none;
     color: black;
-    padding: 10px 70px;
+    padding: 12px 95px;
     background-color: #fff;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 1000px;
     margin-bottom: 7rem;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: normal;
-    position: absolute;
+    transition: 1s ease;
+    text-transform: uppercase;
+    box-shadow: 0 0 60px rgba(0, 255, 204, 0.267);
+
 }
-header a:hover{
-    background-color: skyblue;
+.slider_content a:hover{
+    background: #689ADE;
     border: none;
     color: #fff;
-    transition-duration: .8s;
 }
-header h1{
+.slider_content h1{
     background-color: #555;
     color: #fff;
     text-shadow: 1px 1px 10px black;
     letter-spacing: 7px;
-    font-size: 3em;
-    position: absolute;
+    font-size: 6em;
+    display: inline-block;
     margin-top: 32px;
+    font-weight: normal;
+    
 }
-*/
+#psi{
+    margin-bottom: 32px;
+    font-size: 5.5em;
+}
+
+
 
 /* Configuração da Section Icons */
 
