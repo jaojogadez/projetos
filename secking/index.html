@@ -244,9 +244,9 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll("nav ul li a");
+        var links = document.querySelectorAll("nav ul li a", "#btn_service a");
 
-    links.forEach(link => {
+        links.forEach(link => {
         link.addEventListener("click", function(event) {
             event.preventDefault(); // Impede o comportamento padrão de navegação
 
