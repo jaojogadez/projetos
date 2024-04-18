@@ -417,7 +417,7 @@ article section a:hover{
 .icones_contact{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 3.5rem;
     margin: 25px 0;
     padding: 10px;
     font-size: 1.35em;
