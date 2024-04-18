@@ -386,7 +386,6 @@ article section a{
     transition: 1s ease;
 }
 article section a:hover{
-    
     background-color: #fff;
     color: #0057E1;
     border: 1px solid #0057E1;
@@ -408,11 +407,10 @@ article section a:hover{
 
 #contato{
     min-height: 90vh;
-    display: flex;
 }
 #info_contact{
-    margin-left: 200px;
     margin-top: 20px;
+    margin-left: 100px;
 }
 .icones_contact{
     display: flex;
@@ -431,4 +429,63 @@ article section a:hover{
 #socials-icons{
     display: flex;
     gap: 1rem;
+}
+
+/* Form Style */
+form{
+    padding: 20px;
+    font-size: 1.35em;
+    width: 450px;
+    margin-top: 30px;
+    margin-right: 130px;
+}
+#form_box{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#form_group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+label{
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: 1.5px;
+
+}
+input{
+    padding: 10px;
+    border: 1px solid black;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    border-radius: 20px;
+    outline: none;
+}
+input:hover{
+    border: 1px solid #0057E1;
+}
+#form_btn{
+    display: flex;
+    justify-content: end;
+}
+#form_btn a{
+    text-decoration: none !important;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #0057E1;
+    font-size: small;
+    cursor: pointer;
+    transition: 1s ease;
+}
+#form_btn a:hover{
+    background-color: #fff;
+    color: #0057E1;
+    border: 1px solid #0057E1;
 }
