@@ -505,3 +505,81 @@ input:hover{
     height: 100%;
     margin: 30px 0;
 }
+
+
+/* Seção de Depoimentos */
+
+#depoiments{
+    min-height: 95vh;
+}
+#depoiment_title p{
+    font-weight: normal;
+    margin: 10px auto 10px;
+    width: 270px;
+    line-height: 23px;
+}
+#dep_content{
+    border: 1px solid black;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 270px;
+}
+.depCards{
+    width: 250px;
+    height: 350px;
+    box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.445);
+}
+
+/* Creating a box with a text
+           and some stylings  */
+        .speech {
+            width: 350px;
+            background: gray;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            border-radius: 35px;
+            color: white;
+            position: relative;
+            align-self: flex-end;
+        }
+  
+        /* Creates triangular tip on the
+           end, for our speech bubble 
+           with some styling */
+        .speech:before {
+            content: "";
+            position: absolute;
+            border-left: 20px solid gray;
+            border-right: 20px solid transparent;
+            border-top: 20px solid gray;
+            border-bottom: 20px solid transparent;
+            right: -27px;
+            top: 37px;
+        }
+
+
+
+        .spech::before{
+            content: "";
+            position: absolute;
+            border-left: 20px solid transparent;
+            border-right: 20px solid gray;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid gray;
+            right: 339px;
+            top: 26px;
+        }
+        .spech {
+            width: 350px;
+            background: gray;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            border-radius: 35px;
+            color: white;
+            position: relative;
+            align-self: flex-start;
+        }
