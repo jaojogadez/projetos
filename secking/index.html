@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <img 
             src="assets/logo-secking.png" 
             alt="logo"
@@ -282,35 +282,24 @@
             </div>
         </div>
     </div>
-
-
-    <!-- Script para o efeito de rolagem -->
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-        var links = document.querySelectorAll("nav ul li a", "#btn_service a");
-
-        links.forEach(link => {
-        link.addEventListener("click", function(event) {
-            event.preventDefault(); // Impede o comportamento padrão de navegação
-
-            const targetId = this.getAttribute("href"); // Obtém o ID da seção alvo
-            const targetSection = document.querySelector(targetId); // Seleciona a seção alvo
-
-            if (targetSection) {
-                // Faz a rolagem suave até a seção alvo
-                window.scrollTo({
-                    top: targetSection.offsetTop,
-                    behavior: "smooth"
-                });
-            }
-        });
-    });
-});
-
-
-
-    </script>
-
+    <div id="politicas">
+        <h4>Sobre nossas <a href="">políticas</a></h4>
+    </div>
+    <footer>
+        <nav>
+            <img 
+                src="assets/logo-secking.png" 
+                alt="logo"
+            >
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#quemsomos">QUEM SOMOS</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+                <li><a href="#politicas">POLÍTICAS</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

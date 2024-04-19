@@ -30,7 +30,9 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 180px;     
+    height: 180px;  
+    width: 100%;
+    transition: 1s ease;
 }
 nav ul{
     list-style: none;
@@ -49,6 +51,11 @@ nav a:hover{
     background-color: #fff;
     color: rgb(32, 80, 99) !important;
     transition-duration: .8s;
+}
+nav.rolagem{
+    height: 130px;
+    position: fixed;
+    
 }
 
 /* Configuração do Header */
@@ -607,5 +614,36 @@ input:hover{
         #dep_btn a:hover{
             background-color: #f1f1f1;
             transition: .8s ease;
+        }
 
+        #politicas{
+            min-height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 4px;
+        }
+        #politicas a{
+            text-transform: uppercase;
+            color: white;
+            background-color: #000;
+            padding: 10px;
+            border-radius: 7px;
+            letter-spacing: normal;
+            transition: .5s ease;
+        }
+        #politicas a:hover{
+            text-decoration: none;
+            border-radius: 25px;
+        }
+        
+        footer nav{
+            height: 240px;
+            flex-direction: column-reverse;
+        }
+        footer nav ul{
+            padding-top: 2rem;
+        }
+        footer nav img{
+            width: 165px;
         }
