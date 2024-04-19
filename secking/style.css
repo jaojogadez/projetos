@@ -540,9 +540,6 @@ input:hover{
     row-gap: 50px;
 }
 
-
-/* Creating a box with a text
-           and some stylings  */
         .speech {
             width: 650px;
             background: gray;
@@ -555,10 +552,7 @@ input:hover{
             order: -1;
             box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
         }
-  
-        /* Creates triangular tip on the
-           end, for our speech bubble 
-           with some styling */
+
         .speech:before {
             content: "";
             position: absolute;
