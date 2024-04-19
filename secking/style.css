@@ -512,38 +512,48 @@ input:hover{
 #depoiments{
     min-height: 95vh;
 }
+#depoiment_title{
+    margin-bottom: 15px;
+}
 #depoiment_title p{
     font-weight: normal;
     margin: 10px auto 10px;
     width: 270px;
     line-height: 23px;
 }
+.anonimg{
+    border-radius: 50%;
+    width: 110px;
+    margin: 0 33px;
+}
+.depbox{
+    display: flex;
+}
+#dep_one{
+    align-self: flex-end;
+}
 #dep_content{
-    border: 1px solid black;
     padding: 35px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 0 270px;
+    margin: 0 100px;
+    row-gap: 50px;
 }
-.depCards{
-    width: 250px;
-    height: 350px;
-    box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.445);
-}
+
 
 /* Creating a box with a text
            and some stylings  */
         .speech {
-            width: 350px;
+            width: 650px;
             background: gray;
             padding: 30px;
-            text-align: center;
-            font-size: 35px;
+            text-align: justify;
+            font-size: 13.5px;
             border-radius: 35px;
             color: white;
             position: relative;
-            align-self: flex-end;
+            order: -1;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
         }
   
         /* Creates triangular tip on the
@@ -569,17 +579,39 @@ input:hover{
             border-right: 20px solid gray;
             border-top: 20px solid transparent;
             border-bottom: 20px solid gray;
-            right: 339px;
-            top: 26px;
+            right: 638px;
+            top: 29px;
         }
         .spech {
-            width: 350px;
+            width: 650px;
             background: gray;
             padding: 30px;
-            text-align: center;
-            font-size: 35px;
+            text-align: justify;
+            font-size: 14px;
             border-radius: 35px;
             color: white;
             position: relative;
-            align-self: flex-start;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
+        }
+
+        #dep_btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 45px 0 25px;
+            row-gap: 25px;
+        }
+        #dep_btn a{
+            font-size: medium;
+            color: black;
+            padding: 20px;
+            border-radius: 25px;
+            background-color: white;
+            transition: 1s  ease ;
+            margin-left: 10px;
+        }
+        #dep_btn a:hover{
+            background-color: #f1f1f1;
+            transition: .8s ease;
+
         }
