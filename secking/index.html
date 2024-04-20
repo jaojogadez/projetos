@@ -17,12 +17,21 @@
             src="assets/logo-secking.png" 
             alt="logo"
         >
-        <ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" id="svgon"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="#home">HOME</a></li>
             <li><a href="#quemsomos">QUEM SOMOS</a></li>
             <li><a href="#servicos">SERVIÇOS</a></li>
             <li><a href="#contato">CONTATO</a></li>
             <li><a href="#politicas">POLÍTICAS</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="#home">HOME</a></li>
+            <li class="hideOnMobile"><a href="#quemsomos">QUEM SOMOS</a></li>
+            <li class="hideOnMobile"><a href="#servicos">SERVIÇOS</a></li>
+            <li class="hideOnMobile"><a href="#contato">CONTATO</a></li>
+            <li class="hideOnMobile"><a href="#politicas">POLÍTICAS</a></li>
+            <li class="menu-button" onclick=showSlidebar()><a href="#" id="svg"><svg class="svg_menu" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="white" /></svg></a></li>
         </ul>
     </nav>
 
