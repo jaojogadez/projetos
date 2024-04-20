@@ -1,7 +1,6 @@
 /* Contato Style */
 
 #contact_title{
-    margin-top: 100px;
     text-align: start;
     margin-left: 200px;
     margin-bottom: 0;
@@ -9,6 +8,7 @@
 
 #contato{
     min-height: 90vh;
+    scroll-margin-top: 20rem;
 }
 #info_contact{
     margin-top: 20px;

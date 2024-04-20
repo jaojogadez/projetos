@@ -3,6 +3,8 @@
 main{
     display: flex;
     margin: 30px 0;
+    scroll-margin-top: 20rem;
+    padding-top: 135px;
 }
 main section{
     padding: 40px 0 0 25px;

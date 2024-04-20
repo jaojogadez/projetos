@@ -2,9 +2,11 @@
 
 .title{
     text-align: center;
-    margin: 160px 0 40px 0;
+    margin: 40px 0 40px 0;
     font-size: 5.5em;
     font-weight: bold;
+    padding-top: 135px;
+    scroll-margin-top: 20rem;
 }
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
@@ -26,6 +28,7 @@ article{
     align-items: center;
     justify-content: center;
     gap: 25px;
+    scroll-margin-top: 20rem;
 }
 .boxes{
     display: flex;
