@@ -1,0 +1,20 @@
+/* Configuração da Section Icons */
+
+section#icons{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0 80px 0;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section div img{
+    width: 90px;
+    height: 90px;
+}
+section div small{
+    font: normal bolder 1.1em arial;
+    color: #000;
+}

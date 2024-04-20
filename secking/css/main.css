@@ -1,0 +1,127 @@
+/* Configuração do Main */
+
+main{
+    display: flex;
+    margin: 30px 0;
+}
+main section{
+    padding: 40px 0 0 25px;
+    width: 100%;
+}
+main section h2{
+    font: normal bold 2.7em arial;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    display: inline-block;
+    position: relative;
+}
+main section h2:after{
+    content: ''; 
+    position: absolute;
+    bottom: -5px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; 
+    height: 1px;
+    background-color: #000;
+}
+main section .p_especial{
+    width: 338px;
+    line-height: 23px;
+    font-size: 1.5em;
+}
+main section div{
+    height: 10px;
+    width: 550px;
+    background-color: #1f1f1f;
+    display: flex;
+    margin-top: 80px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+
+/* Configuração da Section Box */
+.box{
+    display: flex;
+    width: 95%;
+    padding-left: 40px;
+}
+
+#missao h3{
+    color: #fff;
+    background-color: rgb(111, 172, 196);
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+#visao h3{
+    color: #fff;
+    background-color: #555;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+#valores h3{
+    color: #fff;
+    background-color: rgb(34, 34, 94);
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#missao p, #visao p, #valores p{
+    background-color: lightgray;
+    text-align: justify;
+    padding: 8px 10px 20px;
+    border-radius: 0 0px 0 20px;
+    font-weight: normal;
+    height: 110px;
+    font-size: 1.09em;
+    letter-spacing: 0.5px;
+
+}
+
+.container{
+    width: 218px ;
+    padding: 0;
+}
+.container h3{
+    font-size: 1.8em;
+}
+#missao span{
+    display: flex;
+    color: #fff;
+    background-color:rgb(111, 172, 196);;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 4px;
+    border-radius: 0 10px 0 0;
+    align-items: center;
+    gap: 8px;
+
+}
+span img{
+    width: 30px;
+}
+#visao span{
+    display: flex;
+    color: #fff;
+    background-color: #555;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 4px;
+    border-radius: 0 10px 0 0;
+    align-items: center;
+    gap: 8px;
+}
+
+#valores span{
+    display: flex;
+    color: #fff;
+    background-color: rgb(34, 34, 94);;
+    font-weight: normal;
+    letter-spacing: 2px;
+    padding: 4px;
+    border-radius: 0 10px 0 0;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,38 @@
+/* Configuração da Navbar */
+
+nav img{
+    width: 130px;
+    margin-right: 32px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 180px;  
+    width: 100%;
+    transition: 1s ease;
+    z-index: 9999;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 32px;
+}
+nav a{
+    text-decoration: none !important;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.6em !important;
+}
+nav a:hover{
+    background-color: #fff;
+    color: rgb(32, 80, 99) !important;
+    transition-duration: .8s;
+}
+nav.rolagem{
+    height: 130px;
+    position: fixed;
+}

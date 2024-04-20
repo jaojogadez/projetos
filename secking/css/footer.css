@@ -1,0 +1,10 @@
+footer nav{
+    height: 240px;
+    flex-direction: column-reverse;
+}
+footer nav ul{
+    padding-top: 2rem;
+}
+footer nav img{
+    width: 165px;
+}
