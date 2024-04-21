@@ -127,3 +127,56 @@ span img{
     align-items: center;
     gap: 5px;
 }
+.img-mobile{
+    display: none;
+}
+
+@media (max-width:950px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-desktop{
+        display: none;
+    }
+    .img-mobile{
+        display: block;
+    }
+    #main-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #main-top h2{
+        font-size: 6vw;
+    }
+    #main-top p{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .box{
+        display: flex;
+        
+    }
+    main section div{
+        width: 575px;
+    }
+}
+
+@media (max-width:800px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    main section div{
+        width: 450px;
+    }
+}
+
+@media (max-width:768px) {
+    .img-mobile{
+        width: 400px;
+    }
+}
