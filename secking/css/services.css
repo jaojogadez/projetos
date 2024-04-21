@@ -132,3 +132,21 @@ article section a:hover{
 #btn_agenda{
     margin-bottom: 0px;
 }
+
+@media (max-width:950px) {
+    #servicos{
+        display: flex;
+        flex-direction: column;
+    }
+    article{
+        background-size: cover;
+    }
+}
+
+@media (max-width:800px) {
+    
+}
+
+@media (max-width:768px) {
+    
+}
