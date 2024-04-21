@@ -162,6 +162,10 @@ span img{
     main section div{
         width: 575px;
     }
+    main section {
+        padding: 0;
+    }
+
 }
 
 @media (max-width:800px) {

@@ -120,6 +120,7 @@ input:hover{
         display: flex;
         align-items: center;
         justify-content: space-around;
+        padding: 0 23px;
     }
     #input_contact{
         margin-right: 0;
@@ -141,12 +142,17 @@ input:hover{
     .icones_contact {
         gap: 2rem;
     }
+    
 }
 
 @media (max-width:800px) {
-    
+    #maps_box{
+        width: 600px;
+    }
 }
 
 @media (max-width:768px) {
-    
+    #maps_box{
+        width: 400px;
+    }
 }

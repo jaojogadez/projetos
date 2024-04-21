@@ -6,7 +6,7 @@ header  .containeer{
 }
 
 header{
-    min-height: 97vh;
+    min-height: 57vh;
 }
 header img{
     width: 100%;
@@ -54,6 +54,7 @@ header img{
     #psi,  .slider_content h1{
         font-size:3vw;
     }
+    
 }
 @media (max-width: 650px) {
     #psi,  .slider_content h1{
