@@ -19,7 +19,6 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin-right: 32px;
 }
 nav a{
     text-decoration: none !important;
@@ -85,6 +84,8 @@ nav li:first-child{
 .menu-button{
     display: none;
 }
+
+
 
 @media (max-width: 800px){
     .hideOnMobile{
