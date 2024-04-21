@@ -21,17 +21,16 @@ header img{
 .slider_content a{
     text-decoration: none;
     color: black;
-    padding: 12px 95px;
+    padding: 10px 100px;
     background-color: #fff;
     border: 1px solid black;
-    border-radius: 1000px;
+    border-radius: 120px;
     margin-bottom: 7rem;
     font-size: 1.5em;
-    font-weight: normal;
     transition: 1s ease;
     text-transform: uppercase;
-    box-shadow: 0 0 60px rgba(0, 255, 204, 0.267);
-
+    box-shadow: 0 0 60px rgba(0, 195, 255, 0.267);
+    position: relative;
 }
 .slider_content a:hover{
     background: #689ADE;
