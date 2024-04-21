@@ -107,3 +107,41 @@ input:hover{
     height: 100%;
     margin: 30px 0;
 }
+
+@media (max-width:950px) {
+    #form_box{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #info_contact{
+        margin-left: 0;
+    }
+    #input_contact{
+        margin-right: 0;
+    }
+    #form_btn{
+        justify-content: center;
+    }
+    #form_btn a {
+        width: 100%;
+        text-align: center;
+    }
+    #contact_title{
+        text-align: center;
+        margin-left: 0;
+    }
+    form{
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width:800px) {
+    
+}
+
+@media (max-width:768px) {
+    
+}
