@@ -120,3 +120,35 @@
             text-decoration: none;
             border-radius: 25px;
         }
+
+        @media (max-width:950px) {
+            
+            
+        }
+        
+        @media (max-width:800px) {
+            .speech, .spech{
+                width: 300px;
+                font-size: 1em ;
+            }
+            .anonimg{
+                width: 50px;
+                height: 50px;
+            }
+            .depbox{
+                display: flex;
+            }
+            #dep_one{
+                align-self: auto;
+            }
+            .spech::before{
+                top: 0px;
+                right: 310px;
+            }
+
+        }
+        
+        @media (max-width:768px) {
+            
+            
+        }
