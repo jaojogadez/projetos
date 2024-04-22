@@ -131,6 +131,16 @@ span img{
     display: none;
 }
 
+@media (min-width:950px) and (max-width:1250px) {
+    main section {
+        padding: 0;
+    }
+    .container {
+        width: 118px;
+    }    
+
+}
+
 @media (max-width:950px) {
     main{
         display: flex;
