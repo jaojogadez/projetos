@@ -85,6 +85,10 @@ nav li:first-child{
     display: none;
 }
 
+.logo-item{
+    cursor: pointer;
+}
+
 
 
 @media (max-width: 800px){
