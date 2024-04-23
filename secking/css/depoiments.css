@@ -30,6 +30,9 @@
     margin: 0 100px;
     row-gap: 50px;
 }
+.stars-icon{
+    display: none;
+}
 
         .speech {
             width: 650px;
@@ -122,6 +125,9 @@
         }
 
         @media (max-width:1100px) {
+            .stars-icon{
+                display: block;
+            }
             .speech, .spech{
                 min-width: 350px;
                 max-width: 450px;
