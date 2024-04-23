@@ -5,6 +5,7 @@ main{
     margin: 30px 0;
     scroll-margin-top: 20rem;
     padding-top: 135px;
+    align-items: center;
 }
 main section{
     padding: 40px 0 0 25px;
@@ -131,17 +132,20 @@ span img{
     display: none;
 }
 
-@media (min-width:950px) and (max-width:1250px) {
-    main section {
-        padding: 0;
+@media (min-width:1000px) and (max-width:1250px) {
+    .box{
+        padding-left: 0;
     }
-    .container {
-        width: 118px;
-    }    
-
+    #missao p, #visao p, #valores p {
+        font-size: 1em;
+    }
+    .img-desktop{
+        width: 450px;
+        height: 300px;
+    }
 }
 
-@media (max-width:950px) {
+@media (max-width:1010px) {
     main{
         display: flex;
         flex-direction: column;
@@ -192,5 +196,13 @@ span img{
 @media (max-width:768px) {
     .img-mobile{
         width: 400px;
+    }
+}
+@media (max-width:468px) {
+    main section div {
+        display: none;
+    }
+    .box{
+        margin-top: 50px;
     }
 }

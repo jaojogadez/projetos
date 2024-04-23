@@ -121,15 +121,11 @@
             border-radius: 25px;
         }
 
-        @media (max-width:950px) {
-            
-            
-        }
-        
-        @media (max-width:800px) {
+        @media (max-width:1100px) {
             .speech, .spech{
-                width: 300px;
-                font-size: 1em ;
+                min-width: 350px;
+                max-width: 450px;
+                margin-top: 15px;
             }
             .anonimg{
                 width: 50px;
@@ -137,18 +133,45 @@
             }
             .depbox{
                 display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
             }
             #dep_one{
                 align-self: auto;
             }
-            .spech::before{
-                top: 0px;
-                right: 310px;
+            .spech::before, .speech:before{
+                display: none;
+            }
+            .speech{
+                order: initial;
+            }
+            #dep_btn{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width:800px) {
+            #dep_btn a{
+                font-size: 2.5vw;
             }
 
         }
         
-        @media (max-width:768px) {
-            
-            
+        @media (max-width:568px) {
+            #dep_btn a{
+                font-size: 3vw;
+            }
         }
+        @media (max-width:478px) {
+            .speech, .spech{
+                width: 350px;
+            }
+        }
+        @media (max-width:468px) {
+            #dep_btn a{
+                font-size: 2.5vw;
+            }
+        }
+

@@ -8,3 +8,17 @@ footer nav ul{
 footer nav img{
     width: 165px;
 }
+
+@media (max-width:868px){
+    footer ul{
+        display: none;
+    }
+    footer nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav img{
+        width: 200px;
+    }
+}

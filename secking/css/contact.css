@@ -108,7 +108,7 @@ input:hover{
     margin: 30px 0;
 }
 
-@media (max-width:950px) {
+@media (max-width:1150px) {
     #form_box{
         display: flex;
         flex-direction: column-reverse;
@@ -142,14 +142,12 @@ input:hover{
     .icones_contact {
         gap: 2rem;
     }
-    
-}
-
-@media (max-width:800px) {
     #maps_box{
         width: 600px;
     }
 }
+
+
 
 @media (max-width:768px) {
     #maps_box{
