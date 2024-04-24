@@ -1,5 +1,5 @@
 # Projeto
- Alguns projetos que eu desenvolvi :D
+Meus principais projetos :D
 
 <a href="https://jaojogadez.github.io/projetos/Trabalhos%20da%20Escola/tecnobus/index.html" target="_blank">Tecnobus - Projeto Escolar</a>
 
