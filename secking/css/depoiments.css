@@ -23,6 +23,9 @@
 #dep_one{
     align-self: flex-end;
 }
+#dep_two{
+    margin-top: 4rem;
+}
 #dep_content{
     padding: 35px;
     display: flex;
@@ -109,6 +112,7 @@
             align-items: center;
             justify-content: center;
             letter-spacing: 4px;
+            margin: 7rem 0;
         }
         #politicas a{
             text-transform: uppercase;

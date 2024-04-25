@@ -99,9 +99,7 @@ nav li:first-child{
 }
 .mobile-navbar h1{
     color: #fff;
-    font: normal bold 3em var();
     font-family: "Archivo Black", sans-serif;
-    text-transform: uppercase;
 }
 
 @media (max-width: 800px){

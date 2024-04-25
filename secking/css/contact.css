@@ -145,6 +145,9 @@ input:hover{
     #maps_box{
         width: 600px;
     }
+    #dep_btn p{
+        margin-bottom: 4rem;
+    }
 }
 
 

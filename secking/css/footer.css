@@ -4,9 +4,10 @@ footer nav{
 }
 footer nav ul{
     padding-top: 2rem;
+    display: none;
 }
 footer nav img{
-    width: 165px;
+    width: 200px;
 }
 
 @media (max-width:868px){
@@ -17,8 +18,5 @@ footer nav img{
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    footer nav img{
-        width: 200px;
     }
 }
