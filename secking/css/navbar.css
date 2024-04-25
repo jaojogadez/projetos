@@ -9,7 +9,7 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 180px;  
+    height: 130px;  
     width: 100%;
     transition: 1s ease;
     z-index: 9999;
@@ -32,8 +32,8 @@ nav a:hover{
     transition-duration: .8s;
 }
 nav.rolagem{
-    height: 130px;
     position: fixed;
+    transition: 1s;
 }
 
 
@@ -89,7 +89,20 @@ nav li:first-child{
     cursor: pointer;
 }
 
-
+.logo-mobile{
+    display: none;
+    width: 80px;
+}
+.mobile-navbar{
+    display: none;
+    margin-right: 0;
+}
+.mobile-navbar h1{
+    color: #fff;
+    font: normal bold 3em var();
+    font-family: "Archivo Black", sans-serif;
+    text-transform: uppercase;
+}
 
 @media (max-width: 800px){
     .hideOnMobile{
@@ -98,12 +111,35 @@ nav li:first-child{
     nav{
         justify-content: space-between;
     }
+    nav img{
+        margin: 0;
+    }
     .menu-button{
         display: block;
+    }
+    .logo-item{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+        margin-left: 30px;
+    }
+    .mobile-navbar{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-navbar h1{
+        font-size: 3em;
+    }
+}
+@media (max-width: 650px){
+    .mobile-navbar h1{
+        font-size: 4vw;
     }
 }
 @media (max-width: 400px){
     .sidebar{
         width: 100%;
     }
+    
 }
