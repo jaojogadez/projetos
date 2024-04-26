@@ -101,8 +101,12 @@ nav li:first-child{
     color: #fff;
     font-family: "Archivo Black", sans-serif;
 }
-
-@media (max-width: 800px){
+@media (max-width: 950px){
+    nav img.logo-item{
+        margin: 0px 0px 0px 0px;
+    }
+}
+@media (max-width: 883px){
     .hideOnMobile{
         display: none;
     }
