@@ -1,3 +1,33 @@
-nav li a:hover{
+.logo-item{
+    width: 130px;
+    margin-left: 15px;
+}
+#plt-head{
     background-color: black;
+    height: 130px;
+    min-height: 0;
+    text-align: center;
+    display: flex;
+}
+#plt_main{
+    max-width: 850px;
+    min-width: 400px;
+    margin: auto;
+    padding-top: 0;
+    flex-direction: column;
+}
+#plt_main section{
+    margin-bottom: 50px;
+}
+#plt_main h1{
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+.plt p{
+    font-size: 1.5em;
+    margin-top: 10px;
+    line-height: 23px;
+    word-spacing: 5px;
+    text-align: justify;
+    text-indent: 25px;
 }
