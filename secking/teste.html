@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Horizontal Fixo</title>
+    <style>
+        #nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 130px;  
+    width: 100%;
+    transition: 1s ease;
+    z-index: 9999;
+}
+#nav ul{
+    list-style: none;
+}
+#nav ul li{
+    display: inline-block;
+}
+#nav a{
+    text-decoration: none !important;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em !important;
+}
+#nav a:hover{
+    background-color: #fff;
+    color: rgb(32, 80, 99) !important;
+    transition-duration: .8s;
+}
+
+
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: block;
+}
+.show-menu {
+    transform: translateY(0); /* Mostra o menu */
+}
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li class="hideOnMobile"><a href="#home">HOME</a></li>
+            <li class="hideOnMobile"><a href="#quemsomos">QUEM SOMOS</a></li>
+            <li class="hideOnMobile"><a href="#servicos">SERVIÇOS</a></li>
+            <li class="hideOnMobile"><a href="#depoiments">DEPOIMENTOS</a></li>
+            <li class="hideOnMobile"><a href="#contato">CONTATO</a></li>
+            <li class="hideOnMobile"><a href="#politicas">POLÍTICAS</a></li>
+            <li class="menu-button" onclick=showSlidebar()><a href="#" id="svg"><svg class="svg_menu" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="white" /></svg></a></li>
+        </ul>
+    </nav>
+    <div class="header">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+    <div class="content">
+        <!-- Conteúdo da página aqui -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor metus quis turpis vestibulum, eget pretium ligula laoreet. Sed condimentum auctor metus. Sed id nisi quis orci rhoncus viverra. Vestibulum vel magna quis velit blandit tristique ut nec lorem. Nulla facilisi. Vestibulum id consectetur odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <!-- Mais conteúdo aqui -->
+    </div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header');
+    var headerHeight = header.offsetHeight;
+    var scrollTop = window.scrollY;
+
+    if (scrollTop > 130) {
+        header.classList.add('fixed-menu');
+    } else {
+        header.classList.remove('fixed-menu');
+    }
+    if (scrollTop < 130){
+        header.style.display="none"
+    }
+    else{
+        header.style.display="block"
+    }
+});
+    </script>
+</body>
+</html>

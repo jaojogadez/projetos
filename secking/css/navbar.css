@@ -31,11 +31,18 @@ nav a:hover{
     color: rgb(32, 80, 99) !important;
     transition-duration: .8s;
 }
-nav.rolagem{
+/*nav.rolagem{
     position: fixed;
     transition: 1s;
+}*/
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    display: block;
 }
-
 
 .sidebar{
     position: fixed;

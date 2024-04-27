@@ -11,6 +11,23 @@ function hideSidebar(){
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
 }
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header');
+    var headerHeight = header.offsetHeight;
+    var scrollTop = window.scrollY;
+
+    if (scrollTop > 130) {
+        header.classList.add('fixed-menu');
+    } else {
+        header.classList.remove('fixed-menu');
+    }
+    if (scrollTop < 130){
+        header.style.display="none"
+    }
+    else{
+        header.style.display="block"
+    }
+});
 
 
 
