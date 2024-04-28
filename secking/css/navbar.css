@@ -107,6 +107,10 @@ nav li:first-child{
 .mobile-navbar h1{
     color: #fff;
     font-family: "Archivo Black", sans-serif;
+    letter-spacing: 2px;
+}
+.logo-fixo-nav{
+    width: 50px;
 }
 @media (max-width: 950px){
     nav img.logo-item{
@@ -115,6 +119,9 @@ nav li:first-child{
 }
 @media (max-width: 883px){
     .hideOnMobile{
+        display: none;
+    }
+    .logo-fixo-nav{
         display: none;
     }
     nav{
