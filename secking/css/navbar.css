@@ -43,6 +43,10 @@ nav a:hover{
     z-index: 999;
     display: block;
 }
+#navbar-fixo-ontop{
+    animation: slideDown 0.5s ease forwards;
+
+}
 
 .sidebar{
     position: fixed;
@@ -158,4 +162,17 @@ nav li:first-child{
         width: 100%;
     }
     
+}
+
+
+
+/* Animation Navbar */
+
+@keyframes slideDown{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
 }
