@@ -28,6 +28,7 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('fixed-menu');
     }
+    
     if (scrollTop < 130){
         header.style.display="none"
     }
