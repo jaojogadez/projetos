@@ -1,7 +1,4 @@
-window.addEventListener("scroll", function(){
-    let nav = document.querySelector('#navbar')
-    nav.classList.toggle('rolagem',window.scrollY > 0)
-});
+// Script for mobile navbar 
 
 function showSlidebar(){
     const sidebar = document.querySelector('.sidebar')
@@ -11,6 +8,16 @@ function hideSidebar(){
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
 }
+
+// First script for fixed navbar 
+
+window.addEventListener("scroll", function(){
+    let nav = document.querySelector('#navbar')
+    nav.classList.toggle('rolagem',window.scrollY > 0)
+});
+
+// Second script for fixed navbar 
+
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.header');
     var headerHeight = header.offsetHeight;

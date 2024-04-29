@@ -31,6 +31,9 @@ nav a:hover{
     color: rgb(32, 80, 99) !important;
     transition-duration: .8s;
 }
+
+/* Classe adicionada com JS (not work)*/
+
 /*nav.rolagem{
     position: fixed;
     transition: 1s;
@@ -48,7 +51,6 @@ nav a:hover{
 #navbar-fixo-ontop{
     animation: slideDown 0.5s ease forwards;
     height: 100px;
-
 }
 
 /* Configuração da navbar mobile */
