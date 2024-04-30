@@ -48,10 +48,32 @@ nav a:hover{
     z-index: 999;
     display: block;
 }
-#navbar-fixo-ontop{
+.animation-entrando{
     animation: slideDown 0.5s ease forwards;
     height: 100px;
 }
+.animation-saindo{
+    animation: slideUp 0.5s ease forwards;
+}
+
+/* Animation Navbar */
+@keyframes slideDown{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+}
+
 
 /* Configuração da navbar mobile */
 .sidebar{
@@ -173,13 +195,3 @@ nav li:first-child{
     
 }
 
-/* Animation Navbar */
-
-@keyframes slideDown{
-    from{
-        transform: translateY(-100%);
-    }
-    to{
-        transform: translateY(0);
-    }
-}

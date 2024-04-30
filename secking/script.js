@@ -12,16 +12,16 @@ function hideSidebar(){
 // First script for fixed navbar 
 
 window.addEventListener("scroll", function(){
-    let nav = document.querySelector('#navbar')
-    nav.classList.toggle('rolagem',window.scrollY > 0)
+    let nav = document.querySelector('.header')
+    nav.classList.toggle('animation-saindo',window.scrollY < 130)
 });
 
 // Second script for fixed navbar 
 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.header');
-    var headerHeight = header.offsetHeight;
     var scrollTop = window.scrollY;
+    var navbarfixa = document.querySelector('#navbar-fixo-ontop')
 
     if (scrollTop > 130) {
         header.classList.add('fixed-menu');
@@ -30,12 +30,16 @@ window.addEventListener('scroll', function() {
     }
     
     if (scrollTop < 130){
-        header.style.display="none"
+        header.style.display="none";
     }
     else{
         header.style.display="block"
     }
 });
+
+
+
+
 
 
 
