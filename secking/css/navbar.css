@@ -40,6 +40,10 @@ nav a:hover:not(footer a){
 }*/
 
 /* Configuração da Navbar fixa no topo */
+.header{
+    display: none;
+}
+
 .fixed-menu {
     position: fixed;
     top: 0;

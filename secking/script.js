@@ -25,17 +25,15 @@ window.addEventListener('scroll', function() {
 
     if (scrollTop > 130) {
         header.classList.add('fixed-menu');
+        header.style.display="block"
     } else {
         header.classList.remove('fixed-menu');
-    }
-    
-    if (scrollTop < 130){
         header.style.display="none";
     }
-    else{
-        header.style.display="block"
-    }
+    
+
 });
+
 
 
 
