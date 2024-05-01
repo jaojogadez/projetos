@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0;
+}
+.menu {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  line-height: 100px;
+  background: red;
+}
+.menu--movel { /* Usando notação BEM para modificadores do bloco "menu" */
+  position: fixed;
+  top: 0;
+  background: blue;
+  /* O estado padrão é oculto */
+  transform: translateY(-100%);
+  /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
+  transition: .25s;
+}
+.menu--show {
+  transform: translateY(0%);
+  /* A velocidade de de apresentação pode ser mais lenta e apreciada. */
+  transition: .6s;
+}
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        Esse é o menu fixo.
+        </nav>
+        
+        <nav class="menu menu--movel">
+        Esse é o menu móvel.
+        </nav>
+        
+        <p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x
+        <p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x<p>x
+            <script>
+                window.addEventListener('scroll', function() {
+                var header = document.querySelector('.menu--movel');
+                var scrollTop = window.scrollY;
+
+                if (scrollTop > 130) {
+                    header.classList.add('menu--show');
+                } else {
+                    header.classList.remove('menu--show');
+                };
+                });
+            </script>
+</body>
+</html>

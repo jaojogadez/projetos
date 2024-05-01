@@ -29,8 +29,6 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('fixed-menu');
         header.style.display="none";
-        navbarfixa.classList.remove('animation-entrando');
-        navbarfixa.classList.add('animation-saindo');
     };
 });
 
