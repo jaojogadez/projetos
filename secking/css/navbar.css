@@ -73,7 +73,7 @@ nav a:hover:not(footer a){
 .sidebar li a:hover{
     background-color:rgba(255, 255, 255, 0.0);
     transition: none;
-    color: white !important;
+    color: rgb(32, 80, 99)  !important;
 }
 nav li:first-child{
     margin-right: auto;
