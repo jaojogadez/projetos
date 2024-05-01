@@ -21,7 +21,7 @@ window.addEventListener("scroll", function(){
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.header');
     var scrollTop = window.scrollY;
-    var navbarfixa = document.querySelector('#navbar-fixo-ontop')
+    var navbarfixa = document.getElementById('#navbar-fixo-ontop')
 
     if (scrollTop > 130) {
         header.classList.add('fixed-menu');
@@ -29,9 +29,9 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('fixed-menu');
         header.style.display="none";
-    }
-    
-
+        navbarfixa.classList.remove('animation-entrando');
+        navbarfixa.classList.add('animation-saindo');
+    };
 });
 
 
