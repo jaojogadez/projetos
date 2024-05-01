@@ -207,3 +207,13 @@ span img{
         margin-top: 50px;
     }
 }
+@media (max-width:450px) {
+    .img-mobile{
+        width: 300px;
+    }
+}
+@media (max-width:400px) {
+    .img-mobile{
+        width: 250px;
+    }
+}
