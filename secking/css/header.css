@@ -1,4 +1,8 @@
 /* Configuração do Header */
+#home{
+    scroll-margin-top: 20rem;
+}
+
 header  .containeer{
     width: 100%;
     margin: 0 ;

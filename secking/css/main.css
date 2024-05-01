@@ -1,10 +1,11 @@
 /* Configuração do Main */
+#quemsomos{
+    scroll-margin-top: 10rem;
+}
 
 main{
     display: flex;
     margin: 30px 0;
-    scroll-margin-top: 20rem;
-    padding-top: 135px;
     align-items: center;
 }
 main section{

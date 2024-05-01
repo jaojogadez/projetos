@@ -5,6 +5,9 @@
 #plt_nav{
     width: 50%;
 }
+footer a{
+    cursor: pointer;
+}
 #plt-head{
     background-color: black;
     height: 130px;
