@@ -31,54 +31,19 @@ nav a:hover:not(footer a){
     color: rgb(32, 80, 99) !important;
     transition-duration: .8s;
 }
-
-/* Classe adicionada com JS (not work)*/
-
-/*nav.rolagem{
-    position: fixed;
-    transition: 1s;
-}*/
-
-/* Configuração da Navbar fixa no topo */
-.header{
-    display: none;
-}
-
-.fixed-menu {
+/* Configuração do menu movel */
+.menu--movel { 
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 999;
-    display: block;
-}
-.animation-entrando{
-    animation: slideDown 0.5s ease forwards;
     height: 100px;
+    transform: translateY(-100%); /* O estado padrão é oculto */
+    transition: .25s; /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
 }
-.animation-saindo{
-    animation: slideUp 0.5s ease forwards;
+.menu--show {
+    transform: translateY(0%);
+    /* A velocidade de de apresentação pode ser mais lenta e apreciada. */
+    transition: .6s;
 }
-
-/* Animation Navbar */
-@keyframes slideDown{
-    from{
-        transform: translateY(-100%);
-    }
-    to{
-        transform: translateY(0);
-    }
-}
-/* Essa de baixo not working :( */
-@keyframes slideUp{
-    from{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(-100%);
-    }
-}
-
 
 /* Configuração da navbar mobile */
 .sidebar{

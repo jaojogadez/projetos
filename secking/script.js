@@ -9,7 +9,7 @@ function hideSidebar(){
     sidebar.style.display = 'none'
 }
 
-// First script for fixed navbar 
+// First script for fixed navbar (not work)
 
 window.addEventListener("scroll", function(){
     let nav = document.querySelector('.header')
@@ -17,20 +17,16 @@ window.addEventListener("scroll", function(){
 });
 
 // Second script for fixed navbar 
-
 window.addEventListener('scroll', function() {
-    var header = document.querySelector('.header');
+    var header = document.querySelector('.menu--movel');
     var scrollTop = window.scrollY;
-    var navbarfixa = document.getElementById('#navbar-fixo-ontop')
 
     if (scrollTop > 130) {
-        header.classList.add('fixed-menu');
-        header.style.display="block"
+        header.classList.add('menu--show');
     } else {
-        header.classList.remove('fixed-menu');
-        header.style.display="none";
+        header.classList.remove('menu--show');
     };
-});
+    });
 
 
 
