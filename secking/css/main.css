@@ -5,7 +5,7 @@
 
 main{
     display: flex;
-    margin: 30px 0;
+    margin: 30px 0 150px;
     align-items: center;
 }
 main section{

@@ -58,9 +58,7 @@ nav a:hover:not(footer a){
     bottom: -4px;
     transition: 0.3s;
 }
-.active:hover:after{
-    width: 100%;
-}
+
 
 
 /* Configuração da navbar mobile */

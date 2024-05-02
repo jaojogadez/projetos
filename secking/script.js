@@ -8,14 +8,6 @@ function hideSidebar(){
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
 }
-
-// First script for fixed navbar (not work)
-
-window.addEventListener("scroll", function(){
-    let nav = document.querySelector('.header')
-    nav.classList.toggle('animation-saindo',window.scrollY < 130)
-});
-
 // Second script for fixed navbar 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.menu--movel');
@@ -26,12 +18,29 @@ window.addEventListener('scroll', function() {
     } else {
         header.classList.remove('menu--show');
     };
-    });
+});
 
+// Script para os links ativos 
 
+let links = document.querySelectorAll('.js-link');
+let sections = document.querySelectorAll('.activeLink');
 
+window.addEventListener('scroll', () => {
+    sections.forEach(section => {
+        let top = window.scrollY;
+        let offset = section.offsetTop;
+        let heightSection = section.offsetHeight;
+        let idSection = section.getAttribute('id')
 
+        if(top >= offset && top < offset + heightSection){
+            links.forEach(link => {
+                link.classList.remove('active');
 
+                document.querySelectorAll(`nav a [href*=''] `).classList.add('active');
+            })
+        }
+    })
+})
 
 
 
