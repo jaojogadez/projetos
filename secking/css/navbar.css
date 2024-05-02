@@ -44,6 +44,24 @@ nav a:hover:not(footer a){
     /* A velocidade de de apresentação pode ser mais lenta e apreciada. */
     transition: .6s;
 }
+.active{
+    position: relative;
+}
+
+.active:after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+}
+.active:hover:after{
+    width: 100%;
+}
+
 
 /* Configuração da navbar mobile */
 .sidebar{
