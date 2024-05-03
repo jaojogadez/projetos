@@ -20,7 +20,7 @@ window.addEventListener('scroll', function() {
     };
 });
 
-// Script para os links ativos 
+// Script para os links ativos  não funcionou ;_;
 
 let links = document.querySelectorAll('.js-link');
 let sections = document.querySelectorAll('.activeLink');
