@@ -30,17 +30,17 @@ window.addEventListener('scroll', () => {
         let top = window.scrollY;
         let offset = section.offsetTop;
         let heightSection = section.offsetHeight;
-        let idSection = section.getAttribute('id')
+        let idSection = section.getAttribute('id');
 
         if(top >= offset && top < offset + heightSection){
             links.forEach(links => {
                 links.classList.remove('active');
 
                 document.querySelector(idSection).classList.add('active');
-            })
-        }
-    })
-})
+            });
+        };
+    });
+});
 
 
 
