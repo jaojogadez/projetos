@@ -156,3 +156,13 @@ input:hover{
         width: 400px;
     }
 }
+@media (max-width:500px) {
+    #maps_box{
+        width: 300px;
+    }
+}
+@media (max-width:400px) {
+    #maps_box{
+        width: 250px;
+    }
+}

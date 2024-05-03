@@ -43,7 +43,11 @@ window.addEventListener('scroll', () => {
 });
 
 
+// Scroll Reveal
 
+window.sr = ScrollReveal({reset: true });
+
+sr.reveal('.animation-one', { duration: 1000});
 
 
 
