@@ -41,7 +41,6 @@ nav a:hover:not(footer a){
 }
 .menu--show {
     transform: translateY(0%);
-    /* A velocidade de de apresentação pode ser mais lenta e apreciada. */
     transition: .6s;
 }
 .active{

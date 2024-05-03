@@ -33,10 +33,10 @@ window.addEventListener('scroll', () => {
         let idSection = section.getAttribute('id')
 
         if(top >= offset && top < offset + heightSection){
-            links.forEach(link => {
-                link.classList.remove('active');
+            links.forEach(links => {
+                links.classList.remove('active');
 
-                document.querySelectorAll(`nav a [href*=''] `).classList.add('active');
+                document.querySelector(idSection).classList.add('active');
             })
         }
     })
