@@ -22,25 +22,7 @@ window.addEventListener('scroll', function() {
 
 // Script para os links ativos  não funcionou ;_;
 
-let links = document.querySelectorAll('.js-link');
-let sections = document.querySelectorAll('.activeLink');
 
-window.addEventListener('scroll', () => {
-    sections.forEach(section => {
-        let top = window.scrollY;
-        let offset = section.offsetTop;
-        let heightSection = section.offsetHeight;
-        let idSection = section.getAttribute('id');
-
-        if(top >= offset && top < offset + heightSection){
-            links.forEach(links => {
-                links.classList.remove('active');
-
-                document.querySelector(idSection).classList.add('active');
-            });
-        };
-    });
-});
 
 
 // Scroll Reveal
