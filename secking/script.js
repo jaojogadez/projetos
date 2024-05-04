@@ -20,9 +20,6 @@ window.addEventListener('scroll', function() {
     };
 });
 
-// Script para os links ativos  não funcionou ;_;
-
-
 
 
 // Scroll Reveal
