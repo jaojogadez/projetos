@@ -92,7 +92,6 @@
             align-items: center;
             margin: 45px 0 25px;
             row-gap: 25px;
-            width: 300px;
         }
         #dep_btn a{
             font-size: medium;
@@ -181,6 +180,9 @@
             }
             #dep_btn a{
                 font-size: 2em;
+            }
+            #dep_btn{
+                width: 300px;
             }
         }
         @media (max-width:350px) {
