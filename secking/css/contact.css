@@ -163,12 +163,26 @@ input:hover{
 }
 @media (max-width:450px) {
     form{
-        
         width: 400px;
+    }
+    #info_contact{
+        padding: 0 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .icones_boxes{
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 }
 @media (max-width:400px) {
     #maps_box{
         width: 250px;
+    }
+    form{
+        width: 350px;
+    }
+    #form_group{
+        flex-direction: column;
     }
 }
