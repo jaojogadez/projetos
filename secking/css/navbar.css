@@ -38,6 +38,7 @@ nav a:hover:not(footer a){
     height: 100px;
     transform: translateY(-100%); /* O estado padrão é oculto */
     transition: .25s; /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
+    z-index: 999;
 }
 .menu--show {
     transform: translateY(0%);
