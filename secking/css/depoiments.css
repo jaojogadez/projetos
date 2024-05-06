@@ -135,7 +135,6 @@
                 display: block;
             }
             .speech, .spech{
-                min-width: 350px;
                 max-width: 450px;
                 margin-top: 15px;
             }
@@ -182,5 +181,10 @@
             }
             #dep_btn a{
                 font-size: 2em;
+            }
+        }
+        @media (max-width:350px) {
+            .speech, .spech{
+                width: 300px;
             }
         }

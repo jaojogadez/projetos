@@ -178,4 +178,9 @@ nav li:first-child{
     }
     
 }
+@media (max-width: 350px){
+    .mobile-navbar h1{
+        display: none;
+    }
+}
 

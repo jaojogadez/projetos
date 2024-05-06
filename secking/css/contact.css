@@ -186,3 +186,8 @@ input:hover{
         flex-direction: column;
     }
 }
+@media (max-width:350px) {
+    form{
+        width: 300px;
+    }
+}
