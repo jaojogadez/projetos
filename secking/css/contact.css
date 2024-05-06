@@ -161,6 +161,12 @@ input:hover{
         width: 300px;
     }
 }
+@media (max-width:450px) {
+    form{
+        
+        width: 400px;
+    }
+}
 @media (max-width:400px) {
     #maps_box{
         width: 250px;
