@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="css/components.css">
 </head>
 <body>
@@ -67,17 +66,17 @@
             <h1>Security Hacking</h1>
         </div>
         <ul>
-            <li class="hideOnMobile"><a href="#home" class="active js-link">HOME</a></li>
-            <li class="hideOnMobile"><a href="#quemsomos" class="js-link">QUEM SOMOS</a></li>
-            <li class="hideOnMobile"><a href="#servicos" class="js-link">SERVIÇOS</a></li>
-            <li class="hideOnMobile"><a href="#depoiments" class="js-link">DEPOIMENTOS</a></li>
-            <li class="hideOnMobile"><a href="#contato" class="js-link">CONTATO</a></li>
-            <li class="hideOnMobile"><a href="#politicas" class="js-link">POLÍTICAS</a></li>
+            <li class="hideOnMobile"><a href="#home" class="active">HOME</a></li>
+            <li class="hideOnMobile"><a href="#quemsomos">QUEM SOMOS</a></li>
+            <li class="hideOnMobile"><a href="#servicos">SERVIÇOS</a></li>
+            <li class="hideOnMobile"><a href="#depoiments">DEPOIMENTOS</a></li>
+            <li class="hideOnMobile"><a href="#contato">CONTATO</a></li>
+            <li class="hideOnMobile"><a href="#politicas">POLÍTICAS</a></li>
             <li class="menu-button" onclick=showSlidebar()><a href="#" id="svg"><svg class="svg_menu" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="white" /></svg></a></li>
         </ul>
     </nav>
     <!-- Carrosel -->
-    <header id="home">
+    <header id="home" class="active-content-link">
         <div class="containeer">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -131,7 +130,7 @@
         </div>
     </section>
     <!-- About -->
-    <main id="quemsomos" class="activeLink show-animate">
+    <main id="quemsomos" class="active-content-link">
         <img 
             src="assets/teste-one.jpg" 
             alt="teste"
@@ -139,8 +138,8 @@
             class="img-desktop"
             >
         <section>
-            <section id="main-top ">
-                <h2 class="animation-one">SOMOS A SECKING</h2>
+            <section id="main-top">
+                <h2>SOMOS A SECKING</h2>
                 <p class="p_especial">
                     Equipe especializada em cyber segurança, a melhor equipe do mercado para proteger o seu sistema.
                 </p>
@@ -185,56 +184,54 @@
         </section>
     </main>
     <!-- Services -->
-    <div class="activeLink">
-        <div id="servicos" class=" titulo">
-            <h1 class="animation-one">Nossos serviços</h1>
-        </div>
-        <article >
-            <div id="box1" class="boxes">
-                <div class="circle" id="circlepen">
-                    <h1>1</h1>
-                </div>
-                <section id="pentest" class="caixa">
-        
-                    <h2>Pentest</h2>
-                    <p>
-                        O objetivo de um pentest é simular um ataque hacker a fim de encontrar falhas e vulnerabilidades no sistema para que possam ser corrigidas.
-                    </p>
-                    <a href="#contato">Agendar</a>
-                </section>
-            </div>
-            <div id="box2" class="boxes" >
-                <div class="circle">
-                    <h1>2</h1>
-                </div>
-                <section id="gerenciamento" class="caixa">
-        
-                    <h2>Gerenciamento</h2>
-                    <p>
-                        Monitoramento contínuo de medidas de segurança em uma organização. O objetivo é garantir que os sistemas e informações estejam protegidos contra ameaças e riscos de segurança.
-                    </p>
-                    <a href="#contato">Agendar</a>
-                </section>
-            </div>
-            <div id="box3" class="boxes">
-                <div class="circle">
-                    <h1>3</h1>
-                </div>
-                <section id="consultoria" class="caixa">
-        
-                    <h2>Consultoria</h2>
-                    <p>
-                        O objetivo da consultoria é fornecer orientação especializada, avaliação de riscos, desenvolvimento de planos e recomendações de melhorias para a segurança do sistema do cliente <br> atendido.
-                    </p>
-                    <a href="#contato" id="btn_agenda">Agendar</a>
-                </section>
-            </div>
-        </article>
+    <div class="title active-content-link">
+        <h1>Nossos serviços</h1>
     </div>
+    <article  id="servicos">
+        <div id="box1" class="boxes">
+            <div class="circle" id="circlepen">
+                <h1>1</h1>
+            </div>
+            <section id="pentest" class="caixa">
+            
+                <h2>Pentest</h2>
+                <p>
+                    O objetivo de um pentest é simular um ataque hacker a fim de encontrar falhas e vulnerabilidades no sistema para que possam ser corrigidas.
+                </p>
+                <a href="#contato">Agendar</a>
+            </section>
+        </div>
+        <div id="box2" class="boxes" >
+            <div class="circle">
+                <h1>2</h1>
+            </div>
+            <section id="gerenciamento" class="caixa">
+            
+                <h2>Gerenciamento</h2>
+                <p>
+                    Monitoramento contínuo de medidas de segurança em uma organização. O objetivo é garantir que os sistemas e informações estejam protegidos contra ameaças e riscos de segurança.
+                </p>
+                <a href="#contato">Agendar</a>
+            </section>
+        </div>
+        <div id="box3" class="boxes">
+            <div class="circle">
+                <h1>3</h1>
+            </div>
+            <section id="consultoria" class="caixa">
+            
+                <h2>Consultoria</h2>
+                <p>
+                    O objetivo da consultoria é fornecer orientação especializada, avaliação de riscos, desenvolvimento de planos e recomendações de melhorias para a segurança do sistema do cliente <br> atendido.
+                </p>
+                <a href="#contato" id="btn_agenda">Agendar</a>
+            </section>
+        </div>
+    </article>
     <!-- Depoimentos -->
-    <div id="depoiments" class="activeLink">
+    <div id="depoiments" class="active-content-link">
         <div class="title" id="depoiment_title">
-            <h1 class="animation-one">Depoimentos</h1>
+            <h1>Depoimentos</h1>
             <p style="font-size: medium;">O que os nossos clientes tem a dizer sobre nossos serviços.</p>
         </div>
         <div id="dep_content">
@@ -257,9 +254,9 @@
         </div>
     </div>
     <!-- Contact us -->
-    <div id="contato" class="activeLink">
+    <div id="contato" class="active-content-link">
         <div class="title" id="contact_title">
-            <h1 class="animation-one">Contate - nos</h1>
+            <h1>Contate - nos</h1>
         </div>
         <div id="form_box">
             <div id="info_contact">
@@ -348,7 +345,7 @@
         </div>
     </div>
     <!-- Politicas -->
-    <div id="politicas" class="activeLink">
+    <div id="politicas" class="active-content-link">
         <h4>Sobre nossas <a href="politicas.html" target="_blank">políticas</a></h4>
     </div>
     <!-- Footer -->
