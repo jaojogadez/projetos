@@ -31,7 +31,7 @@ main section h2:after{
     background-color: #000;
 }
 main section .p_especial{
-    width: 338px;
+    max-width:338px;
     line-height: 23px;
     font-size: 1.5em;
 }
