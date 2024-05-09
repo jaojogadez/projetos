@@ -27,7 +27,6 @@
     margin-top: 4rem;
 }
 #dep_content{
-    align-items: center;
     padding: 35px;
     display: flex;
     flex-direction: column;
@@ -92,6 +91,7 @@
             align-items: center;
             margin: 45px 0 25px;
             row-gap: 25px;
+            align-self: center;
         }
         #dep_btn a{
             font-size: medium;
