@@ -26,7 +26,7 @@ window.addEventListener('scroll', function() {
 
 window.sr = ScrollReveal({reset: true });
 
-sr.reveal('.animation-one', { duration: 1000});
+sr.reveal('.active-content-link', { duration: 1000});
 
 
 // Mensagem do botão
