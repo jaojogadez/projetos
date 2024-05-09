@@ -29,7 +29,11 @@ window.sr = ScrollReveal({reset: true });
 sr.reveal('.animation-one', { duration: 1000});
 
 
+// Mensagem do botão
 
+function alerta(){
+    window.alert('Sua mensagem foi enviada com sucesso! Aguarde a respota em 24 horas.')
+}
 
 
 
