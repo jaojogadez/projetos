@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Frame</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            min-height: 97vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            border: 1px solid;
+            width: 1150px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        iframe{
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            border: 1px solid;
+            transition: .5s ease;
+            cursor: pointer;
+        }
+        iframe:hover{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <iframe src="" frameborder="0" onclick="click()"></iframe>
+        <iframe src="" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe>
+    </main>
+    <script>
+        function click (){
+            const aaaaaaaaaa = document.querySelectorAll('iframe')
+            console.log(aaaaaaaaaa)
+            
+        }
+    </script>
+</body>
+</html>
