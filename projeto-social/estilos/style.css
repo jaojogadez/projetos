@@ -9,17 +9,20 @@ html, body{
     min-width: 97vw;
     background-color: black;
 }
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
+    background-size: cover;
+}
 main{
     position: relative;
     height: 100vh;
-    background-color: gray;
 }
 #tell{
     position: absolute;
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    height: 627px;
+    width: 311px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background:url('../imagens/frame-iphone.png') no-repeat;
 }
