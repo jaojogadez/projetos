@@ -1,4 +1,4 @@
-@charset " UTF-8";
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@ html, body{
 body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center fixed;
     background-size: cover;
+    overflow: hidden;
 }
 main{
     position: relative;
