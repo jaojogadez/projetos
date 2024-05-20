@@ -1,22 +1,73 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="quiz-container">
-        <h1>Quiz</h1>
-        <div id="quiz">
-            <!-- Perguntas serão inseridas aqui pelo JavaScript -->
+    <!DOCTYPE html>
+    <meta charset="utf-8"/>
+    <html lang="pt-br">
+    <head>
+        <script type="text/javascript" src="./index.js" defer=""></script>
+        <link rel="stylesheet" href="index.css">
+    
+        <style>
+        /* Estilo para ocultar a div inicialmente */
+        #acertosPag {
+            display: none;
+        }
+        #obg {
+            display: none;
+        }
+        #alerta {
+            display: none;
+        }
+    </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1> Teste seus conhecimentos sobre ENGENHARIA DE MATERIAIS! </h1>
+        </header>   
+
+
+        <main>
+            
+        <div id="quiz"></div>
+        
+        <template id="template">
+                
+
+            <div class="quiz-item">
+            <h3>
+                Pergunta 01
+            </h3>
+            <dl>
+                <dt>
+                <input type="radio" name="item" value="0">
+                <span>
+                Resposta A
+                </span>
+                
+                </dt>
+            </dl>
+            <button class="reset-button">Limpar seleção</button>
+            </div>
+
+        </template>
+
+
+        <button id="limparRespostas">LIMPAR TODAS AS RESPOSTAS</button>
+        
+        <button id="enviarRespostasBtn">Enviar Respostas</button>
+        
+        </main>
+
+        <div id="acertosPag">
+        <strong>Acertos</strong>
+        <br><span id="num">0 de 10</span>
         </div>
-        <button id="previous" class="navigation">Anterior</button>
-        <button id="next" class="navigation">Próximo</button>
-        <button id="submit">Enviar</button>
-        <div id="results"></div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+
+
+
+
+        <strong id="obg">Obrigado por responder este quiz!</strong>
+    </body>
+
+    </html>
