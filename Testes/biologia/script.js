@@ -1,6 +1,8 @@
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
 const submitButton = document.getElementById('submit');
+const previousButton = document.getElementById('previous');
+const nextButton = document.getElementById('next');
 
 const myQuestions = [
     {
@@ -32,9 +34,10 @@ const myQuestions = [
     }
 ];
 
+let currentQuestionIndex = 0;
+
 function buildQuiz() {
     const output = [];
-
     myQuestions.forEach((currentQuestion, questionNumber) => {
         const answers = [];
         for (letter in currentQuestion.answers) {
@@ -50,12 +53,26 @@ function buildQuiz() {
         }
 
         output.push(
-            `<div class="question"> ${currentQuestion.question} </div>
-            <ul class="answers"> ${answers.join('')} </ul>`
+            `<div class="slide">
+                <div class="question"> ${currentQuestion.question} </div>
+                <ul class="answers"> ${answers.join('')} </ul>
+            </div>`
         );
     });
-
     quizContainer.innerHTML = output.join('');
+}
+
+function showSlide(n) {
+    const slides = document.querySelectorAll('.slide');
+    slides.forEach((slide, index) => {
+        slide.style.display = index === n ? 'block' : 'none';
+    });
+
+    previousButton.style.display = n === 0 ? 'none' : 'inline-block';
+    nextButton.style.display = n === slides.length - 1 ? 'none' : 'inline-block';
+
+    // Verifica se todas as perguntas foram respondidas e se é a última pergunta
+    submitButton.style.display = (n === slides.length - 1 && allQuestionsAnswered()) ? 'inline-block' : 'none';
 }
 
 function showResults() {
@@ -78,6 +95,34 @@ function showResults() {
     resultsContainer.innerHTML = `${numCorrect} de ${myQuestions.length}`;
 }
 
+function allQuestionsAnswered() {
+    const slides = document.querySelectorAll('.slide');
+    let allAnswered = true;
+    slides.forEach((slide, index) => {
+        const selector = `input[name=question${index}]:checked`;
+        const userAnswer = slide.querySelector(selector);
+        if (!userAnswer) {
+            allAnswered = false;
+        }
+    });
+    return allAnswered;
+}
+
 buildQuiz();
 
-submitButton.addEventListener('click', showResults);
+const slides = document.querySelectorAll('.slide');
+showSlide(currentQuestionIndex);
+
+previousButton.addEventListener('click', () => {
+    showSlide(--currentQuestionIndex);
+});
+
+nextButton.addEventListener('click', () => {
+    showSlide(++currentQuestionIndex);
+});
+
+submitButton.addEventListener('click', () => {
+    if (allQuestionsAnswered()) {
+        showResults();
+    }
+});
