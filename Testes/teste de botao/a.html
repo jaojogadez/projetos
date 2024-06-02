@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=b, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            display: flex;
+            gap: 20px;
+            width: 100%;
+            align-items: center;
+        }
+        .class{
+            width: 200px;
+            height: 100px;
+            background-color: darkmagenta;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            color: white;
+        }
+        button{
+            width: 70px;
+            height: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>clique no botão para adicionar</h1>
+    <main id="main">
+        <div class="class"><p>Input</p></div>
+        <button type="button" onclick="adicionar()">Add</button>
+    </main>
+    <script>
+        var main = document.getElementById('main')
+        function adicionar(){
+            main.innerHTML = '<div class="class"><p>Input</p></div>'
+        }
+    </script>
+</body>
+</html>
