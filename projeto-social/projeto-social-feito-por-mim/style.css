@@ -10,4 +10,32 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: black url('imagens/fundo-madeira.jpg') no-repeat top center;
+    background-size: cover;
+}
+main{
+    display: flex;
+    gap: 25px;
+}
+#celular{
+    position: relative;
+    top: 8px;
+    width: 312px;
+    height: 638px;
+}
+
+#logo-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+}
+#logo-icons img{
+    width: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
+}
+#logo-icons img:hover{
+    border: 2px solid white;
 }
