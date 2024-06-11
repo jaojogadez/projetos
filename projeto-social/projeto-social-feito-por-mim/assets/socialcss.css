@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100vw;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    padding: 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: bolder;
+    width: 100vw;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+a:hover{
+    background-color: darkred;
+}
