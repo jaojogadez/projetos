@@ -315,15 +315,15 @@
                 </div>
             </div>
             <div id="input_contact">
-                <form>
+                <form autocomplete="on">
                     <div id="form_group">
                         <div class="row_form">
-                            <label>Nome</label>
-                            <input type="text" placeholder="Name" required>
+                            <label for="name">Nome: *</label>
+                            <input type="text" name="name"  id="name" placeholder="Name" required autocomplete="name">
                         </div>
                         <div class="row_form">
-                            <label>Sobrenome</label>
-                            <input type="text" placeholder="Last Name">
+                            <label for="lastName">Sobrenome</label>
+                            <input type="text" placeholder="Last Name" id="lastName" name="lastName" autocomplete="additional-name">
                         </div>
                     </div>
                     <div class="row_form">
