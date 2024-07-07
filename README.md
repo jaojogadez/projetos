@@ -7,17 +7,17 @@ Meus principais projetos :D
 
 <a href="https://jaojogadez.github.io/projetos/secking/index.html" target="_blank">Secking Si - Landing Page de uma empresa fictícia</a><br>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-android/desafio10%20-%20feito%20por%20mim/" target="_blank">Projeto Android - Desenvolvido por mim</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-android/desafio10%20-%20feito%20por%20mim/" target="_blank">Projeto Android - Desenvolvido por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-android/projeto-android/" target="_blank">Projeto Android - Desenvolvido nas aulas do Curso em Vídeo </a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-android/projeto-android/" target="_blank">Projeto Android - Desenvolvido nas aulas do Curso em Vídeo </a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-cordel/desafio12%20-%20feito%20por%20mim/" target="_blank">Projeto Cordel - Desenvolvido por mim</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-cordel/desafio12%20-%20feito%20por%20mim/" target="_blank">Projeto Cordel - Desenvolvido por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-cordel/desafio12%20-%20desenvolvido%20nas%20aulas%20do%20curso/" target="_blank">Projeto Cordel - Desenvolvido nas aulas do Curso em Vídeo</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-cordel/desafio12%20-%20desenvolvido%20nas%20aulas%20do%20curso/" target="_blank">Projeto Cordel - Desenvolvido nas aulas do Curso em Vídeo</a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-social/projeto-social-feito-por-mim/index.html" target="_blank">Projeto Social - Feito por mim</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-social/projeto-social-feito-por-mim/index.html" target="_blank">Projeto Social - Feito por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/projeto-social/projeto-social-curso-em-video/index.html" target="_blank">Projeto Social - Desenvolvido nas aulas do Curso em Vídeo</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-social/projeto-social-curso-em-video/index.html" target="_blank">Projeto Social - Desenvolvido nas aulas do Curso em Vídeo</a>
 
 
 
