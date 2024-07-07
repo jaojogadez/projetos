@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+:root{
+    --verde: #49a09d;
+    --lilás:  #5f2c82;
+    --fonte: 'Arial', sans-serif;
+}
