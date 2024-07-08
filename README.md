@@ -19,6 +19,7 @@ Meus principais projetos :D
 
 <a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-social/projeto-social-curso-em-video/index.html" target="_blank">Projeto Social - Desenvolvido nas aulas do Curso em Vídeo</a>
 
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-login/feito-por-mim/index.html" target="_blank">Projeto Login - Feito por mim</a>
 
 
 
