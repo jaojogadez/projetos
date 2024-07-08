@@ -7,3 +7,112 @@
     --lilás:  #5f2c82;
     --fonte: 'Arial', sans-serif;
 }
+
+/* Configurações Gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--lilás);
+    font-family: var(--fonte);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.429);
+    transition: .5s;
+}
+
+#img img{
+    display: block;
+    height: 185px;
+    min-width: 295px;
+    border-radius: 15px 15px 0 0;
+}
+
+#login{
+    padding: 20px;
+}
+
+#login h1{
+    text-align: center;
+}
+#login p{
+    width: 250px;
+    margin: 15px 0;
+    text-align: center;
+    font-size: .9em;
+}
+
+.ipt{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--lilás);
+    padding:  0 15px;
+    border-radius: 20px;
+}
+
+.ipt input{
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+
+.ipt input::placeholder{
+    color: #555;
+}
+
+.icon{
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--verde);
+    color: white;
+}
+
+.btn:hover{
+    background-color: #3e8885;
+}
+
+.buttons a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: rgb(71, 71, 71);
+    font-size: .9em;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid skyblue;
+    transition: .5s ease;
+}
+
+.buttons a:hover{
+    background-color: skyblue;
+}
