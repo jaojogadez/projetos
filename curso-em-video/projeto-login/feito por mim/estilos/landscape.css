@@ -1,2 +1,14 @@
 @charset "UTF-8";
 
+/* Celular deitado em paisagem */
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+#img img{
+    display: block;
+    height: 347px;
+    min-width: 295px;
+    border-radius: 15px 0px 0px 15px;
+}
