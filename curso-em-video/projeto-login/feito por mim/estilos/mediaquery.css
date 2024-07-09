@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+/* Outros dispositivos */
+
+/* Tablets */
+
+@media screen and (min-width: 600px) and (max-width: 992px){
+    main{
+        display: flex;
+        flex-direction: row;
+    }
+    #img img{
+        display: block;
+        height: 347px;
+        min-width: 295px;
+        border-radius: 15px 15px 0 0;
+    }
+}
