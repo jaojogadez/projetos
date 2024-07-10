@@ -31,7 +31,8 @@ main{
     background-color: white;
     border-radius: 15px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.429);
-    transition: .5s ease    ;
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 
 #img img{
