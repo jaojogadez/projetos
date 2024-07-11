@@ -17,10 +17,10 @@ Meus principais projetos :D
 
 <a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-social/projeto-social-feito-por-mim/index.html" target="_blank">Projeto Social - Feito por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-login/projeto-social-curso-em-video/index.html" target="_blank">Projeto Social - Desenvolvido nas aulas do Curso em Vídeo</a>
+<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-social\projeto-social-curso-em-video" target="_blank">Projeto Social - Desenvolvido nas aulas do Curso em Vídeo</a>
 
 <a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-login/feito%20por%20mim/" target="_blank">Projeto Login - Feito por mim</a>
 
-<a href="https://jaojogadez.github.io/projetos/curso-em-video/projeto-cordel/desafio12%20-%20desenvolvido%20nas%20aulas%20do%20curso/" target="_blank">Projeto Login - Desenvolvido nas aulas do Curso em Vídeo</a>
+<a href="https://jaojogadez.github.io/projetos\curso-em-video\projeto-login\desenvolvido nas aulas" target="_blank">Projeto Login - Desenvolvido nas aulas do Curso em Vídeo</a>
 
 
