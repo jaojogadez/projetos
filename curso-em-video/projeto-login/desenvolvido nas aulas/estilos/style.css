@@ -42,7 +42,7 @@ section#login{
 
 div#imagem{
     display: block;
-    background: var(--lilás) url('../pexels-bogdankrupin-16920244\ \(1\).jpg') no-repeat center center fixed;
+    background: var(--lilás) url('../imagens/pexels-bogdankrupin-16920244\ \(1\).jpg') no-repeat center center fixed;
     background-size: cover;
     height: 200px;
 }
