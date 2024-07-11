@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+body{
+    background-color: #5f2c82;
+}
+section#login{
+    width: 80vw;
+    height: 315px;
+}
+div#imagem{
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+div#formulario{
+    float: left;
+    width: 70%;
+}
