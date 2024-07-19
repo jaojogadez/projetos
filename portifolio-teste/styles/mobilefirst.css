@@ -52,11 +52,23 @@ section h2{
     border-radius: 5px;
     cursor: pointer;
     transition: .1s ease;
+    display: flex;
 }
 .projectClasse:hover{
     width: 410px;
     height: 210px;
 }
+
+.projectClasse h3{
+    position: relative;
+    align-self: end;
+    padding: 5px;
+    color:var(--branco-fumaca);
+    letter-spacing: .5px;
+    font-weight: normal;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.792);
+}
+
 
 #project1{
     background: black url('../imgs/tencobus.png') no-repeat top center;
