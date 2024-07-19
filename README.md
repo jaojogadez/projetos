@@ -23,4 +23,5 @@ Meus principais projetos :D
 
 <a href="https://jaojogadez.github.io/projetos\curso-em-video\projeto-login\desenvolvido nas aulas" target="_blank">Projeto Login - Desenvolvido nas aulas do Curso em Vídeo</a>
 
+<a href="https://jaojogadez.github.io/projetos\portifolio-teste" target="_blank">Meu Portifólio</a>
 
