@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 :root{
-    --branco-fumaca: #f5f5f5;
+    --branco-fumaca: #e7e7e7;
     --main-font: "Oswald", sans-serif;
 }
 
@@ -33,4 +33,41 @@ header h1{
 
 section h2{
     font-size: 1.3em;
+    align-self: flex-start;
+    margin-left: 20px;
 }
+
+#projects{
+    margin-top: 25px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.projectClasse{
+    width: 400px;
+    height: 200px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s ease;
+}
+.projectClasse:hover{
+    width: 410px;
+    height: 210px;
+}
+
+#project1{
+    background: black url('../imgs/tencobus.png') no-repeat top center;
+    background-size: cover;
+}
+#project2{
+    background: black url('../imgs/diskdiaristapg.png') no-repeat top center;
+    background-size: cover;
+}
+#project3{
+    background: black url('../imgs/secking.png') no-repeat top center;
+    background-size: cover;
+}
+
