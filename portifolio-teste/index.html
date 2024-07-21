@@ -15,28 +15,50 @@
         </header>
         <section id="projects">
             <h2>Meus Projetos:</h2>
-            <div id="project1" class="projectClasse" onmouseover="expandir()" onmouseout="voltar()">
+            <div id="project1" class="projectClasse" onmouseover="expandir1()" onmouseout="voltar1()">
                 
                     <div id="p1">
                         <h3>Tecnobus</h3>
                     </div>
             
             </div>
-            <div id="project2" class="projectClasse">
-
+            <div id="project2" class="projectClasse" onmouseover="expandir2()" onmouseout="voltar2()">
+                    <div id="p2">
+                        <h3>Disk Diarista e Passe Bem</h3>
+                    </div>
             </div>
-            <div id="project3" class="projectClasse">
-
+            <div id="project3" class="projectClasse" onmouseover="expandir3()" onmouseout="voltar3()">
+                <div id="p3">
+                    <h3>Secking</h3>
+                </div>
             </div>
         </section>
     </main>
     <script>
-        function expandir(){
+        function expandir1(){
             var element = document.getElementById('p1')
             element.style.display = 'block'
         }
-        function voltar(){
+        function voltar1(){
             var element = document.getElementById('p1')
+            element.style.display = 'none'
+        }
+
+        function expandir2(){
+            var element = document.getElementById('p2')
+            element.style.display = 'block'
+        }
+        function voltar2(){
+            var element = document.getElementById('p2')
+            element.style.display = 'none'
+        }
+
+        function expandir3(){
+            var element = document.getElementById('p3')
+            element.style.display = 'block'
+        }
+        function voltar3(){
+            var element = document.getElementById('p3')
             element.style.display = 'none'
         }
     </script>

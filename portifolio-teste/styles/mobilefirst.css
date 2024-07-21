@@ -56,16 +56,19 @@ section h2{
     align-items: end;
 }
 .projectClasse:hover{
-    width: 410px;
-    height: 210px;
-}
 
+    box-shadow: inset -20px -20px 35px black;
+}
 h3{
     padding: 5px;
     color:var(--branco-fumaca);
     letter-spacing: .5px;
     font-weight: normal;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.792);
+}
+
+#p2 h3{
+    text-shadow: 0px 0px 5px black;
 }
 
 #project1{
@@ -82,6 +85,14 @@ h3{
 }
 
 #p1{
+    display: none;
+    transition: .3s ease;
+}
+#p2{
+    display: none;
+    transition: .3s ease;
+}
+#p3{
     display: none;
     transition: .3s ease;
 }
