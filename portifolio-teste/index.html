@@ -15,16 +15,30 @@
         </header>
         <section id="projects">
             <h2>Meus Projetos:</h2>
-            <div id="project1" class="projectClasse">
-                <h3>Tecnobus</h3>
+            <div id="project1" class="projectClasse" onmouseover="expandir()" onmouseout="voltar()">
+                
+                    <div id="p1">
+                        <h3>Tecnobus</h3>
+                    </div>
+            
             </div>
             <div id="project2" class="projectClasse">
-                <h3>Disk Diarista</h3>
+
             </div>
             <div id="project3" class="projectClasse">
-                <h3>Secking SI</h3>
+
             </div>
         </section>
     </main>
+    <script>
+        function expandir(){
+            var element = document.getElementById('p1')
+            element.style.display = 'block'
+        }
+        function voltar(){
+            var element = document.getElementById('p1')
+            element.style.display = 'none'
+        }
+    </script>
 </body>
 </html>
