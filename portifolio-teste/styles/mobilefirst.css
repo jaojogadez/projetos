@@ -98,13 +98,22 @@ h3{
     background: black url('../imgs/tencobus.png') no-repeat top center;
     background-size: cover;
 }
+#project1:hover{
+    background-image: url('../imgs/tecnobus-gif.gif');
+}
 #project2{
     background: black url('../imgs/diskdiaristapg.png') no-repeat top center;
     background-size: cover;
 }
+#project2:hover{
+    background-image: url('../imgs/diarista-gif.gif');
+}
 #project3{
     background: black url('../imgs/secking.png') no-repeat top center;
     background-size: cover;
+}
+#project3:hover{
+    background-image: url('../imgs/secking-gif.gif');
 }
 
 #p1{
