@@ -44,7 +44,9 @@ section h2{
     flex-flow: column nowrap;
     align-items: center;
 }
-
+.projectContent{
+    margin-bottom: 32px;
+}
 .projectClasse{
     position: relative;
     width: 400px;
@@ -57,7 +59,7 @@ section h2{
 }
 .icons{
     position: absolute;
-    display: flex;
+    display: none;
     flex-flow: row-reverse nowrap;
     align-items: center;
     justify-content: center;
@@ -67,6 +69,18 @@ section h2{
     width: 410px;
     height: 210px;
 }
+.iconsMobile{
+    display: flex;
+    flex-flow: row nowrap;
+    align-self: flex-start;
+    gap: 10px;
+}
+.iconContent{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 3px;
+}
 .icone{
     font-size: 40px;
     cursor: pointer;
@@ -74,9 +88,7 @@ section h2{
 .icone:hover{
     color: #222;
 }
-#p3 span{
-    color: gray;
-}
+
 .projectClasse:hover{
     width: 410px;
     height: 210px;
@@ -131,4 +143,12 @@ h3{
 
 .projeto{
     display: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: #222;
 }
