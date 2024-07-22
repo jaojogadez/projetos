@@ -58,7 +58,7 @@ section h2{
 .icons{
     position: absolute;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     align-items: center;
     justify-content: center;
     gap: 30px;
