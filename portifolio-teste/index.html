@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
+    <header>
+        <h1>João Pedro D. Oliveira</h1>
+    </header>
     <main>
-        <header>
-            <h1>João Pedro D. Oliveira</h1>
-        </header>
         <section id="projects">
             <h2>Meus Projetos:</h2>
             
             <div class="projectContent">
+                <h3>Tecnobus</h3>
                 <div id="project1" class="projectClasse" onmouseover="expandir1()" onmouseout="voltar1()">
-                
                         <div id="p1">
                             <div class="icons">
                                 <abbr title="Ver Repositório">
@@ -35,7 +35,7 @@
                             </div>
                             <h4>Tecnobus</h4>
                         </div>
-                
+                        
                 </div>
                 <div class="iconsMobile">
                         <a href="https://github.com/jaojogadez/projetos.git">
@@ -57,6 +57,7 @@
                 </div>
             </div>
             <div class="projectContent">
+                <h3>Disk Diarista E Passe Bem</h3>
                 <div id="project2" class="projectClasse" onmouseover="expandir2()"  onmouseout="voltar2()">
                         <div id="p2">
                             <div class="icons">
@@ -95,6 +96,7 @@
                 </div>
             </div>
             <div class="projectContent">
+                <h3>Secking</h3>
                 <div id="project3" class="projectClasse" onmouseover="expandir3()" onmouseout="voltar3()">
                 
                     <div id="p3">
@@ -133,6 +135,28 @@
                 </div>
             </div>
         </section>
+        <div class="sectionMovel" id="sectionMovel">
+            <h2>Tecnobus</h2>
+            <div id="tecnobusimg"></div>
+            <div class="links">
+                <a href="https://github.com/jaojogadez/projetos.git">
+                    <div class="iconContent">
+                        <span class="material-symbols-outlined icone" style="font-size: 30px;">
+                            open_in_new
+                        </span>
+                        <p>Ver Repositório</p>
+                    </div>
+                </a>
+                <a href="https://jaojogadez.github.io/ensino-medio/1%C2%BA%20S%C3%A9rie%20-%20ADW/tecnobus/">
+                    <div class="iconContent">
+                        <span class="material-symbols-outlined icone" style="font-size: 30px;">
+                            preview
+                        </span>
+                        <p>Ver Site</p>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
     <script>
         function expandir1(){
@@ -161,6 +185,8 @@
             var element = document.getElementById('p3')
             element.style.display = 'none'
         }
+
+        var tecnobus = document.getElementById('sectionMovel');
     </script>
 </body>
 </html>

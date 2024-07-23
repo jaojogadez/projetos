@@ -20,7 +20,12 @@ html,body{
 body{
     min-height: 100vh;
 }
-
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
 header{
     background-color: #fff;
     padding: 15px;
@@ -71,12 +76,13 @@ section h2{
     height: 210px;
 }
 .iconsMobile{
-    display: flex;
+    display: none;
     flex-flow: row nowrap;
     align-self: flex-start;
     gap: 10px;
 }
 .iconContent{
+    position: relative;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -103,9 +109,9 @@ h4{
 }
 h3{
     color:white;
-    letter-spacing: .5px;
-    font-weight: normal;
-    text-shadow: 0px 0px 5px black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.658);
 }
 
 #p2 h4{
@@ -157,4 +163,40 @@ a{
 }
 a:hover{
     color: #222;
+}
+
+.sectionMovel{
+    position: absolute;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    width: 350px;
+    height: 380px;
+    border-radius: 20px;
+    z-index: 9999;
+    top: 100px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.562);
+    transition: .4s ease;
+}
+#tecnobusimg{
+    background: black url('../imgs/tecnobus-gif.gif') no-repeat center center;
+    background-size: cover;
+    width: 320px;
+    height: 180px;
+    border-radius: 10px;
+}
+.links{
+    width: 320px;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
+    margin: 15px 0;
+    padding: 5px;
+}
+.sectionMovel h2{
+    align-self: flex-start;
+    margin: 5px 0;
 }
