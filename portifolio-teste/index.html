@@ -19,7 +19,7 @@
             
             <div class="projectContent">
                 <h3>Tecnobus</h3>
-                <div id="project1" class="projectClasse" onmouseover="expandir1()" onmouseout="voltar1()">
+                <div id="project1" class="projectClasse" onmouseover="expandir1()" onmouseout="voltar1()" onclick="showTec()">
                         <div id="p1">
                             <div class="icons">
                                 <abbr title="Ver Repositório">
@@ -186,7 +186,10 @@
             element.style.display = 'none'
         }
 
-        var tecnobus = document.getElementById('sectionMovel');
+        function showTec(){
+            var tecnobus = document.getElementById('sectionMovel');
+            tecnobus.style.display = 'flex;'
+        }
     </script>
 </body>
 </html>
