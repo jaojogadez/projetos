@@ -36,14 +36,14 @@ header h1{
     font-size: 1.5em;
 }
 
-section h2{
+ h2{
     font-size: 1.3em;
     align-self: flex-start;
-    margin-bottom: 16px;
+    
+    margin: 16px 0 0 16px;
 }
 
 #projects{
-    margin-top: 25px;
     padding: 20px;
     display: flex;
     flex-flow: column nowrap;

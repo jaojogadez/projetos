@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    #projects{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+    
+}
