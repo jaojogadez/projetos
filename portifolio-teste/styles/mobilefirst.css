@@ -19,15 +19,19 @@ html,body{
 
 body{
     min-height: 100vh;
-}
-main{
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
     justify-content: center;
 }
+main{
+    margin-top: 90px;
+    width: min-content;
+}
 header{
+    position: fixed;
+    width: 100%;
     background-color: #fff;
+    top: 0;
+    z-index: 9999;
     padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -36,11 +40,10 @@ header h1{
     font-size: 1.5em;
 }
 
- h2{
+h2{
+    align-self: self-start;
     font-size: 1.3em;
-    align-self: flex-start;
-    
-    margin: 16px 0 0 16px;
+    margin-left: 20px;
 }
 
 #projects{
