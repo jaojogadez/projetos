@@ -25,6 +25,7 @@
     }
     h2{
         margin-left: 50px;
+        font-size: 1.7em;
     }
     
     #projects{
@@ -37,6 +38,9 @@
     .projectClasse{
         width: 600px;
         height: 300px;
+    }
+    .info-project{
+        width: 590px;
     }
     .icons{
         top: 50%;

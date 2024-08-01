@@ -62,7 +62,7 @@ h2{
     flex-flow: row-reverse nowrap;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 45px;
     top: 0;
     z-index: 20;
     width: 410px;
@@ -81,13 +81,14 @@ h2{
     align-items: center;
     gap: 3px;
 }
-.icone{
-    font-size: 40px;
+span > .icone{
+    font-size: 40px !important; 
     cursor: pointer;
 }
 .icone:hover{
     color: #222;
 }
+
 .projectClasse{
     position: relative;
     display: flex;
@@ -218,6 +219,7 @@ a:hover{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 .info-project > span > img{
     width: 65px;
