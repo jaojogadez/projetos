@@ -97,19 +97,18 @@ h2{
     height: 200px;
     margin: 5px 0 15px 0;
     transition: 350ms;
-    border-radius: 15px;
+    border-radius: 10px;
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe,
                 -15px -15px 30px #ffffff;
 }
 .projectClasse:hover{
     box-shadow: inset -10px -15px 35px #222;
-    transform: scale(1.1, 1.1);
 }
 
 h4{
     padding: 5px;
-    color:var(--branco-fumaca);
+    color: white;
     letter-spacing: .5px;
     font-weight: normal;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.792);
@@ -212,4 +211,16 @@ a:hover{
 .sectionMovel h2{
     align-self: flex-start;
     margin: 5px 0;
+}
+
+.info-project{
+    width: 390px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.info-project > span > img{
+    width: 65px;
+    height: 25px;
+    border-radius: 10px;
 }
