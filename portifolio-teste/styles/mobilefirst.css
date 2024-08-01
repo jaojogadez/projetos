@@ -64,7 +64,6 @@ h2{
     justify-content: center;
     gap: 45px;
     top: 0;
-    z-index: 20;
     width: 410px;
     height: 210px;
 }
@@ -103,9 +102,26 @@ span > .icone{
     box-shadow: 15px 15px 30px #bebebe,
                 -15px -15px 30px #ffffff;
 }
-.projectClasse:hover{
-    box-shadow: inset -10px -15px 35px #222;
+
+.projectClasse:hover::before{
+    position: absolute;
+    content: '';
+    width: 405px;
+    height: 5px;
+    background-color: #222;
+    bottom: -10px;
+    opacity: 1;
+    filter: blur(10px);
 }
+/* .projectClasse:hover::before{
+    position: absolute;
+    content: '';
+    width: 400px;
+    height: 200px;
+    background-color: #000000;
+    border-radius: 10px;
+    opacity: .1;
+} */
 
 h4{
     padding: 5px;
@@ -220,6 +236,7 @@ a:hover{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
 }
 .info-project > span > img{
     width: 65px;
