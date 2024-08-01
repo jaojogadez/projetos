@@ -51,6 +51,8 @@ h2{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    transition: width .5s, heigth .5s;
+    transition-timing-function: ease;
 }
 .projectContent{
     margin-bottom: 32px;
