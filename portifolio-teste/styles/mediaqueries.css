@@ -43,6 +43,7 @@
         width: 590px;
     }
     .icons{
+        display: flex;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -56,4 +57,14 @@
     .projectClasse:hover::before{
         width: 605px;
     }
+    .iconsMobile{
+        display: none;
+    }
+    .material-symbols-outlined, .icons p{
+        color: white;
+    }
+    .material-symbols-outlined:hover{
+        color: lightgray;
+    }
+
 }

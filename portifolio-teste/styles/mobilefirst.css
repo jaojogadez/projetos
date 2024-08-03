@@ -60,8 +60,7 @@ h2{
     transition: 350ms;
     border-radius: 10px;
     background: #e0e0e0;
-    box-shadow: 15px 15px 30px #bebebe,
-                -15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
 
 .projectClasse:hover{
@@ -85,7 +84,7 @@ h2{
 
 .icons{
     position: absolute;
-    display: flex;
+    display: none;
     flex-flow: row-reverse nowrap;
     align-items: center;
     justify-content: center;
@@ -96,10 +95,14 @@ h2{
 }
 
 .iconsMobile{
-    display: none;
-    flex-flow: row nowrap;
-    align-self: flex-start;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: space-between;
     gap: 10px;
+    margin: 0 10px
+}
+.iconsMobile > .material-symbols-outlined{
+    color: #000;
 }
 .iconContent{
     position: relative;
@@ -110,16 +113,10 @@ h2{
 }
 
 
-.material-symbols-outlined, .icons p{
-    color: white;
-}
-.material-symbols-outlined:hover{
-    color: lightgray;
-}
-
 
 h4{
     padding: 5px;
+    font-size: 1.3em;
     color: white;
     letter-spacing: .5px;
     font-weight: normal;
@@ -135,6 +132,7 @@ h3{
 
 #p2 h4{
     text-shadow: 0px 0px 5px black;
+    margin-left: 3px;
 }
 
 #project1{
