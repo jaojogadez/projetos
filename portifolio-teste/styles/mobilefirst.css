@@ -22,7 +22,9 @@ html,body{
 body{
     min-height: 100vh;
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
+    align-items: center;
 }
 main{
     margin-top: 90px;
@@ -30,8 +32,8 @@ main{
 }
 header{
     width: 100%;
+    height: 70px;
     background-color: #fff;
-
     padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -252,7 +254,7 @@ a:hover{
 .menu--movel { 
     position: fixed;
     top: 0;
-    height: 100px;
+    height: 70px;
     transform: translateY(-100%); /* O estado padrão é oculto */
     transition: .25s; /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
     z-index: 999;
