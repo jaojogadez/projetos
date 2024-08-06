@@ -9,16 +9,16 @@ function hideSidebar(){
     sidebar.style.display = 'none'
 }
 // Second script for fixed navbar 
-window.addEventListener('scroll', function() {
-    var header = document.querySelector('.menu--movel');
-    var scrollTop = window.scrollY;
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('.menu--movel');
+        var scrollTop = window.scrollY;
 
-    if (scrollTop > 130) {
-        header.classList.add('menu--show');
-    } else {
-        header.classList.remove('menu--show');
-    };
-});
+        if (scrollTop > 130) {
+            header.classList.add('menu--show');
+        } else {
+            header.classList.remove('menu--show');
+        };
+    });
 
 
 

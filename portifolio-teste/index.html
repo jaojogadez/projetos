@@ -13,6 +13,9 @@
     <header>
         <h1>João Pedro D. Oliveira</h1>
     </header>
+    <header class="menu--movel">
+        <h1>João Pedro D. Oliveira</h1>
+    </header>
     <main>
         <h2>Meus Projetos:</h2>
             <section id="projects">
@@ -261,7 +264,16 @@
             var element = document.getElementById('p4')
             element.style.display = 'none'
         }
+        window.addEventListener('scroll', function() {
+        var header = document.querySelector('.menu--movel');
+        var scrollTop = window.scrollY;
 
+            if (scrollTop > 130) {
+                header.classList.add('menu--show');
+            } else {
+                header.classList.remove('menu--show');
+            };
+        });
         
     </script>
 </body>

@@ -29,11 +29,9 @@ main{
     width: min-content;
 }
 header{
-    position: fixed;
     width: 100%;
     background-color: #fff;
-    top: 0;
-    z-index: 99999;
+
     padding: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -250,6 +248,18 @@ a:hover{
     width: 65px;
     height: 25px;
     border-radius: 10px;
+}
+.menu--movel { 
+    position: fixed;
+    top: 0;
+    height: 100px;
+    transform: translateY(-100%); /* O estado padrão é oculto */
+    transition: .25s; /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
+    z-index: 999;
+}
+.menu--show {
+    transform: translateY(0%);
+    transition: .6s;
 }
 
 /* Animation CSS */
