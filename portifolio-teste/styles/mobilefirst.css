@@ -253,6 +253,9 @@ a:hover{
     align-items: center;
     z-index: 9999;
 }
+.info-project h4{
+    align-self: flex-end;
+}
 .info-project span{
     width: clamp(100px, 400px, 235px);
     display: flex;
@@ -266,10 +269,15 @@ a:hover{
     width: auto;
 }
 .info-project > span > img{
-    width: 65px;
+    width: 75px;
     height: 25px;
     border-radius: 10px;
 }
+.auto > img{
+    height: 25px;
+    border-radius: 10px;
+}
+
 .menu--movel { 
     position: fixed;
     top: 0;
