@@ -38,6 +38,9 @@
     .projectClasse{
         width: 600px;
         height: 300px;
+        animation: appear  linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30% ;
     }
     .info-project{
         width: 590px;
