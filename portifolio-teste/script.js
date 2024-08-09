@@ -33,6 +33,51 @@ function voltar4(){
     var element = document.getElementById('p4')
     element.style.display = 'none'
 }
+
+function expandir5(){
+    var element = document.getElementById('p5')
+    element.style.display = 'flex'
+}
+function voltar5(){
+    var element = document.getElementById('p5')
+    element.style.display = 'none'
+}
+
+function expandir6(){
+    var element = document.getElementById('p6')
+    element.style.display = 'block'
+}
+function voltar6(){
+    var element = document.getElementById('p6')
+    element.style.display = 'none'
+}
+
+function expandir7(){
+    var element = document.getElementById('p7')
+    element.style.display = 'block'
+}
+function voltar7(){
+    var element = document.getElementById('p7')
+    element.style.display = 'none'
+}
+
+function expandir8(){
+    var element = document.getElementById('p8')
+    element.style.display = 'block'
+}
+function voltar8(){
+    var element = document.getElementById('p8')
+    element.style.display = 'none'
+}
+
+
+
+
+
+
+
+
+
 window.addEventListener('scroll', function() {
 var header = document.querySelector('.menu--movel');
 var scrollTop = window.scrollY;
