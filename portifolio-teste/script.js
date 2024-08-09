@@ -69,6 +69,14 @@ function voltar8(){
     var element = document.getElementById('p8')
     element.style.display = 'none'
 }
+function expandir9(){
+    var element = document.getElementById('p9')
+    element.style.display = 'block'
+}
+function voltar9(){
+    var element = document.getElementById('p9')
+    element.style.display = 'none'
+}
 
 
 

@@ -184,40 +184,50 @@ h3{
 }
 
 #project5{
-    background: black url('../imgs/tencobus.png') no-repeat top center;
+    background: black url('../imgs/android.png') no-repeat top center;
     background-size: cover;
     border-radius: 10px;
 }
 #project5:hover{
-    background-image: url('../imgs/tecnobus-gif.gif');
+    background-image: url('../imgs/androidgif.gif');
     border-radius: 10px;
 }
 #project6{
-    background: black url('../imgs/diskdiaristapg.png') no-repeat top center;
+    background: black url('../imgs/cordel.png') no-repeat top center;
     background-size: cover;
     border-radius: 10px;
 }
 #project6:hover{
-    background-image: url('../imgs/diarista-gif.gif');
+    background-image: url('../imgs/cordelgif.gif');
     border-radius: 10px;
 }
 #project7{
-    background: black url('../imgs/secking.png') no-repeat top center;
+    background: black url('../imgs/social.png') no-repeat top center;
     background-size: cover;
     border-radius: 10px;
 }
 #project7:hover{
-    background-image: url('../imgs/secking-gif.gif');
+    background-image: url('../imgs/socialgif.gif');
     border-radius: 10px;
 }
 #project8{
-    background: black url('../imgs/mariorun.png') no-repeat top center;
+    background: black url('../imgs/login.png') no-repeat top center;
     background-size: cover;
     border-radius: 10px;
 }
 #project8:hover{
-    background-image: url('../imgs/mariogif.gif');
-    background-size: contain;
+    background-image: url('../imgs/logingif.gif');
+    background-size: cover;
+    border-radius: 10px;
+}
+#project9{
+    background: black url('../imgs/exsjs.png') no-repeat top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+#project9:hover{
+    background-image: url('../imgs/exjsgif.gif');
+    background-size: cover;
     border-radius: 10px;
 }
 
@@ -250,6 +260,10 @@ h3{
     transition: .3s ease;
 }
 #p8{
+    display: none;
+    transition: .3s ease;
+}
+#p9{
     display: none;
     transition: .3s ease;
 }
