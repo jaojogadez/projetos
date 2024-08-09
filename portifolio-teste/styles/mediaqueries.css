@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:768px) and (max-width:1200px){
+@media screen and (min-width:600px) and (max-width:1200px){
     #projects{
         display: flex;
         flex-flow: row wrap;
@@ -9,9 +9,18 @@
     main{
         width: auto;
     }
+    .projectClasse{
+        width: 400px;
+    }
     
     h2{
         margin-left: 50px;
+    }
+    h4{
+        font-size: 1.3em;
+    }
+    .info-project{
+        width: 390px;
     }
 }
 
