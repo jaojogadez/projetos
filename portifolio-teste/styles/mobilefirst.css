@@ -148,31 +148,39 @@ h3{
 #project1{
     background: black url('../imgs/tencobus.png') no-repeat top center;
     background-size: cover;
+    border-radius: 10px;
 }
 #project1:hover{
     background-image: url('../imgs/tecnobus-gif.gif');
+    border-radius: 10px;
 }
 #project2{
     background: black url('../imgs/diskdiaristapg.png') no-repeat top center;
     background-size: cover;
+    border-radius: 10px;
 }
 #project2:hover{
     background-image: url('../imgs/diarista-gif.gif');
+    border-radius: 10px;
 }
 #project3{
     background: black url('../imgs/secking.png') no-repeat top center;
     background-size: cover;
+    border-radius: 10px;
 }
 #project3:hover{
     background-image: url('../imgs/secking-gif.gif');
+    border-radius: 10px;
 }
 #project4{
     background: black url('../imgs/mariorun.png') no-repeat top center;
     background-size: cover;
+    border-radius: 10px;
 }
 #project4:hover{
     background-image: url('../imgs/mariogif.gif');
     background-size: contain;
+    border-radius: 10px;
 }
 
 #p1{
