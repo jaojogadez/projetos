@@ -27,13 +27,14 @@ body{
     align-items: center;
     overflow: hidden;
 }
-main:not(#alert){
-    filter: blur(3px);
-}
+
 main{
     display: block;
     margin-top: 90px;
     width: min-content;
+}
+.main--blur{
+    filter: blur(5px);
 }
 header{
     display: block;

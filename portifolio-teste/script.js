@@ -99,10 +99,14 @@ var scrollTop = window.scrollY;
 
 // Função alert para dar rolagem na tela 
 var Alert = document.getElementById('alerta')
+var Main = document.getElementById('main')
 function onLoadPg(){
     Alert.classList.add('alert--show')
+    Main.classList.add('main--blur')
 }
 function hiddenAlert(){
     document.body.style.overflow = 'auto';
     Alert.classList.remove('alert--show')
+    Main.classList.remove('main--blur')
+
 }
