@@ -371,7 +371,6 @@ a:hover{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    z-index: 9999;
 }
 .info-project h4{
     align-self: flex-end;
