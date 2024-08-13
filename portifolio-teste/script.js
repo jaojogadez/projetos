@@ -80,12 +80,6 @@ function voltar9(){
 
 
 
-
-
-
-
-
-
 window.addEventListener('scroll', function() {
 var header = document.querySelector('.menu--movel');
 var scrollTop = window.scrollY;

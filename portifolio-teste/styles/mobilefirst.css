@@ -35,6 +35,8 @@ main{
 }
 .main--blur{
     filter: blur(5px);
+    pointer-events: none;
+    opacity: 0.5;
 }
 header{
     display: block;
@@ -89,6 +91,7 @@ main h2{
     transform: translateX(0%);
     transition: .6s;
 }
+.alert-pc{display: none;}
 
 
 /* Cards Styles */

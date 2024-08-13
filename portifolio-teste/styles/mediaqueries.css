@@ -22,6 +22,10 @@
     .info-project{
         width: 390px;
     }
+    .alert{
+        width: 425px;
+        height: 160px;
+    }
 }
 
 @media screen and (min-width:1200px) {
@@ -32,7 +36,7 @@
     main{
         width: 100%;
     }
-    h2{
+    main h2{
         margin-left: 55px;
         font-size: 2em;
     }
@@ -78,5 +82,23 @@
     .material-symbols-outlined:hover{
         color: lightgray;
     }
-
+    .alert{
+        width: 550px;
+        height: 183px;
+    }
+    .alert h1{
+        font-size: 2em;
+    }
+    .alert p{
+        font-size: 1.2em;
+    }
+    #button-alert{
+        transform: scale(1.2);
+    }
+    .alert-mobile{
+        display: none;
+    }
+    .alert-pc{
+        display: block;
+    }
 }
