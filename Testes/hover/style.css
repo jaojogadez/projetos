@@ -1,0 +1,22 @@
+.flex-container{
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    &:hover{
+        background-color: orangered;
+    }
+    &  .flex-item{
+        width: 100px;
+        height: 80px;
+        border: 1px solid;
+        background-color: blue;
+        transition: .3s;
+        &:hover{
+            background-color: yellow;
+        }
+    }
+}
+/* CARACA FUNCIONA MESMO */
