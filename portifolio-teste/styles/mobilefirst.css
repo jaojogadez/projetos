@@ -17,6 +17,7 @@
 html,body{
     background-color: var(--branco-fumaca);
     font-family: var(--main-font);
+    overflow-x: hidden;
 }
 
 body{
