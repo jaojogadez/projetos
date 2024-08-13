@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="styles/landscape.css" media="screen and (orientation: landscape)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
+<body name="body" onload="onLoadPg()">
     <header>
         <h1>João Pedro D. Oliveira</h1>
     </header>
     <header class="menu--movel">
         <h1>João Pedro D. Oliveira</h1>
     </header>
-    <section id="alert">
+    <section class="alert " id="alerta">
         <h2>Olá, seja bem vindo(a)!</h2>
-        <p>Clique em cima das imagens para visualizar mais detalhes sobre os projetos.</p>
-        <button>Ok</button>
+        <p>Clique em cima das imagens para visualizar mais detalhes sobre os projetos!</p>
+        <input type="submit" value="Continuar" class="button" id="button-alert" onclick=" hiddenAlert()">
     </section>
     <main>
         <h2>Meus Projetos:</h2>

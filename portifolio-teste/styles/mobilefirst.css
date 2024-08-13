@@ -25,6 +25,10 @@ body{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+main:not(#alert){
+    filter: blur(3px);
 }
 main{
     display: block;
@@ -51,7 +55,7 @@ main h2{
 }
 
 /* Alert Style */
-#alert{
+.alert{
     display: flex;
     flex-flow: column nowrap;
     position: absolute;
@@ -60,12 +64,14 @@ main h2{
     z-index: 9999;
     background-color: white;
     padding: 25px;
-    width: 435px;
-    height: 150px;
+    width: 325px;
+    height: 160px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.158);
+    transition: .25s ease;
+    transform: translateX(-100%);
 }
-#alert button{
+.alert .button{
     width: 80px;
     align-self: flex-end;
     padding: 10px;
@@ -74,6 +80,13 @@ main h2{
     cursor: pointer;
     background-color: cornflowerblue;
     color: white;
+    &:hover{
+        background-color: mediumslateblue;
+    }
+}
+.alert--show{
+    transform: translateX(0%);
+    transition: .6s;
 }
 
 
@@ -91,7 +104,7 @@ main h2{
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
-.animation-normal{
+/* .animation-normal{
     animation: appear2  linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30% ;
@@ -100,7 +113,7 @@ main h2{
     animation: appear3  linear;
     animation-timeline: view();
     animation-range: entry 0% cover 30% ;
-}
+} */
 
 .projectClasse:hover{
     border-image: fill 0 linear-gradient(#0005, #000);

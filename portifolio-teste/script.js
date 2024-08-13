@@ -96,3 +96,13 @@ var scrollTop = window.scrollY;
         header.classList.remove('menu--show');
     };
 });
+
+// Função alert para dar rolagem na tela 
+var Alert = document.getElementById('alerta')
+function onLoadPg(){
+    Alert.classList.add('alert--show')
+}
+function hiddenAlert(){
+    document.body.style.overflow = 'auto';
+    Alert.classList.remove('alert--show')
+}
