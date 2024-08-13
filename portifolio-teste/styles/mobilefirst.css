@@ -17,7 +17,6 @@
 html,body{
     background-color: var(--branco-fumaca);
     font-family: var(--main-font);
-    overflow-x: hidden;
 }
 
 body{
@@ -386,7 +385,7 @@ a:hover{
 @keyframes appear2{
     from{
         opacity: 0;
-        transform: translateX(-100px);
+        transform: translateX(-75px);
     }
 
     to{
@@ -398,7 +397,7 @@ a:hover{
 @keyframes appear3{
     from{
         opacity: 0;
-        transform: translateX(100px);
+        transform: translateX(65px);
     }
 
     to{
