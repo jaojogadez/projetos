@@ -13,7 +13,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+p{
+    margin-bottom: 0 !important;
+}
 html,body{
     background-color: var(--branco-fumaca);
     font-family: var(--main-font);
@@ -49,7 +51,7 @@ header{
 }
 
 header h1{
-    font-size: 1.5em;
+    margin-bottom: 0 !important;
 }
 
 main h2{
@@ -69,24 +71,16 @@ main h2{
     background-color: white;
     padding: 25px;
     width: 325px;
-    height: 160px;
+    height: 171px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.158);
     transition: .25s ease;
     transform: translateX(-100%);
 }
 .alert .button{
-    width: 80px;
     align-self: flex-end;
     padding: 10px;
-    border-radius: 25px;
     border: none;
-    cursor: pointer;
-    background-color: cornflowerblue;
-    color: white;
-    &:hover{
-        background-color: mediumslateblue;
-    }
 }
 .alert--show{
     transform: translateX(0%);
@@ -160,6 +154,7 @@ main h2{
 }
 .iconsMobile > .material-symbols-outlined{
     color: #000;
+    cursor: pointer;
 }
 .iconContent{
     position: relative;
