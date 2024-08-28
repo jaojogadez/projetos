@@ -1,3 +1,10 @@
+window.addEventListener("load", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
+})
+
 function expandir1(){
     var element = document.getElementById('p1')
     element.style.display = 'flex'
