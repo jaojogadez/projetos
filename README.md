@@ -1,5 +1,6 @@
 # Projeto
 Meus principais projetos :D
+Esse repósitorio é um misto de vários em um só.
 
 <a href="https://jaojogadez.github.io/ensino-medio/1%C2%BA%20S%C3%A9rie%20-%20ADW/tecnobus/" target="_blank">Tecnobus - Projeto Escolar</a>
 
