@@ -52,9 +52,21 @@ body{
     align-items: center;
     justify-content: center;
     transition: all .2s ease-in-out;
+    position: relative;
 }
 
 .drop-zone p {
     z-index: 99;
     text-shadow: rgba(54, 54, 54, 0.589) 2px 2px 20px;
+}
+
+.drop-zone img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 500ms;
+}
+
+.file-input:hover .drop-zone img{
+    opacity: 0.1;
 }
