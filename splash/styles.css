@@ -1,0 +1,47 @@
+/* Estilo da Splash Screen */
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3498db; /* Cor de fundo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que fique acima de tudo */
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.splash.fade-out {
+    opacity: 0;
+}
+
+.splash-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Animação de loading (opcional) */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: white;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Conteúdo principal (inicialmente oculto) */
+.content {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
